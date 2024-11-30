@@ -1,6 +1,6 @@
 ---
 lab:
-  title: "Labo\_: déploiement à l’aide de modèles Azure\_Resource\_Manager"
+  title: "Labo\_: déploiement à l’aide de modèles Azure Resource Manager"
   module: 'Module 1: Exploring Azure Resource Manager'
 ---
 
