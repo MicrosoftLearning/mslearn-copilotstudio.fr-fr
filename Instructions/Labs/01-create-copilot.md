@@ -1,11 +1,11 @@
 ---
 lab:
-  title: "Créer un copilote avec Copilot\_Studio"
+  title: "Créer un assistant avec Copilot\_Studio"
 ---
 
-# Créer un copilote avec Copilot Studio
+# Créer un assistant avec Copilot Studio
 
-Dans cet exercice, vous allez utiliser Copilot Studio pour créer un copilote simple qui peut répondre aux questions des employés sur les politiques de dépenses dans une société fictive.
+Dans cet exercice, vous allez utiliser Copilot Studio pour créer un assistant simple qui peut répondre aux questions des employés sur les politiques de dépenses dans une société fictive.
 
 Cet exercice devrait prendre environ **45** minutes.
 
@@ -13,7 +13,7 @@ Cet exercice devrait prendre environ **45** minutes.
 
 ## Créer un copilote
 
-Commençons par utiliser Copilot Studio pour créer un copilote. Le copilote aura initialement des capacités très limitées, que vous étendrez plus tard dans l’exercice.
+Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aura initialement des capacités très limitées, que vous étendrez plus tard dans l’exercice.
 
 1. Dans votre navigateur web, accédez à [Copilot Studio](https://copilotstudio.microsoft.com/) à l’adresse `https://copilotstudio.microsoft.com/` et connectez-vous avec votre compte professionnel ou scolaire, si nécessaire. Ignorez les messages de bienvenue.
 
