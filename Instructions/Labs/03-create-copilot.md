@@ -8,7 +8,7 @@ lab:
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans ce labo, vous allez :
 
 - Créer et nommer un copilote
 - Ajouter une description de ce que le copilote doit faire
