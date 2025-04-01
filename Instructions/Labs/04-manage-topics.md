@@ -8,7 +8,7 @@ lab:
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans ce labo, vous allez :
 
 - Gérer les rubriques existantes
 - Créer et modifier des rubriques à l’aide du langage naturel
@@ -218,7 +218,7 @@ Les rubriques peuvent être créées manuellement avec des expressions déclench
 
 1. Entrez `I want to book a real estate showing` sous **Ajouter des expressions** et sélectionnez l’icône **+**.
 
-1. Entrez `Schedule a real estate showing` sous **Ajouter des expressions** et sélectionnez l’icône**+**.
+1. Entrez `Schedule a real estate showing` sous **Ajouter des expressions** et sélectionnez l’icône **+**.
 
 1. Entrez `Arrange the viewing for a real estate property` sous **Ajouter des expressions** et sélectionnez l’icône **+**.
 

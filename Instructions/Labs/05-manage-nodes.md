@@ -8,7 +8,7 @@ lab:
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans ce labo, vous allez :
 
 - Créer le flux conversationnel
 
