@@ -1,25 +1,25 @@
 ---
 lab:
-  title: Déployer un copilote dans Microsoft Teams
-  module: Create a copilot with Microsoft Copilot Studio and Dataverse for Teams
+  title: "Déployer l’assistant dans Microsoft\_Teams"
+  module: Create an agent with Microsoft Copilot Studio and Dataverse for Teams
 ---
 
-# Déployer un copilote dans Microsoft Teams
+# Déployer l’assistant dans Microsoft Teams
 
 ## Scénario
 
 Dans ce labo, vous allez :
 
-- Créer des actions de copilote
+- Créer des actions d’agent
 
 ## Contenu du didacticiel
 
-- Comment déployer un copilote dans Microsoft Teams
+- Comment déployer un assistant dans Microsoft Teams
 
 ## Étapes de labo de haut niveau
 
 - Publier
-- Déployer un copilote dans Microsoft Teams
+- Déployer l’assistant dans Microsoft Teams
   
 ## Prérequis
 
@@ -27,15 +27,15 @@ Dans ce labo, vous allez :
 
 ## Procédure détaillée
 
-## Exercice 1 - Publier le copilote
+## Exercice 1 : publier l’assistant
 
 ### Tâche 1.1 – Publier le contenu le plus récent
 
 1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
-1. Sélectionnez **Copilotes** dans le volet de navigation gauche.
+1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
-1. Sélectionnez le copilote que vous avez créé dans le labo précédent.
+1. Sélectionnez l’assistant que vous avez créé dans le labo précédent.
 
 1. Sélectionnez **Publier**, puis **Publier** à nouveau.
 
@@ -45,11 +45,11 @@ Dans ce labo, vous allez :
 
 ## Exercice 2 - Canaux
 
-Maintenant que votre copilote est publié, vous pouvez le mettre à la disposition des utilisateurs dans Teams. De cette façon, vous, vos coéquipiers et l’ensemble de votre organisation pouvez interagir avec lui.
+Maintenant que votre agent est publié, vous pouvez le mettre à la disposition des utilisateurs dans Teams. De cette façon, vous, vos coéquipiers et l’ensemble de votre organisation pouvez interagir avec lui.
 
 ### Tâche 2.1 – Canal Microsoft Teams
 
-1. Lorsque votre Copilot s’ouvre dans Microsoft Copilot Studio, sélectionnez l’onglet **Canaux**.
+1. Lorsque votre agent s’ouvre dans Microsoft Copilot Studio, sélectionnez l’onglet **Canaux**.
 
     ![Capture d’écran de l’onglet Canaux.](../media/channels.png)
 
@@ -95,6 +95,6 @@ Maintenant que votre copilote est publié, vous pouvez le mettre à la dispositi
 
     ![Capture d’écran de la boîte de dialogue d’ajout de l’application à Teams.](../media/teams-add-app.png)
 
-1. Testez le copilote.
+1. Testez l’assistant.
 
-    ![Capture d’écran du copilote ouvert dans Teams.](../media/teams-copilot.png)
+    ![Capture d’écran de l’assistant dans Teams.](../media/teams-copilot.png)
