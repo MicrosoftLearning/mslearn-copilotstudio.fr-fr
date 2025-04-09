@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Créer des actions d’agent
+  title: Créer des actions de copilote
   module: Enhance Microsoft Copilot Studio copilots
 ---
 
@@ -10,7 +10,7 @@ lab:
 
 Dans ce labo, vous allez :
 
-- Créer des actions d’agent
+- Créer des actions de copilote
 
 ## Contenu du didacticiel
 
@@ -18,8 +18,8 @@ Dans ce labo, vous allez :
 
 ## Étapes de labo de haut niveau
 
-- Créer un flux de cloud Power Automate pour récupérer des données Dataverse avec une action d’assistant
-- Créer un flux de cloud Power Automate pour créer des données Dataverse avec une action d’assistant
+- Créer un flux de cloud Power Automate pour récupérer des données Dataverse avec une action copilote
+- Créer un flux de cloud Power Automate pour créer des données Dataverse avec une action copilote
   
 ## Prérequis
 
@@ -27,7 +27,7 @@ Dans ce labo, vous allez :
 
 ## Procédure détaillée
 
-## Exercice 1 : créer une action d’assistant pour récupérer des données à partir de Dataverse
+## Exercice 1 : créer une action Copilot pour récupérer des données à partir de Dataverse
 
 Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse à l’aide de flux de cloud Power Automate.
 
@@ -35,7 +35,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
-1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
+1. Sélectionnez **Copilotes** dans le volet de navigation gauche.
 
 1. Sélectionnez le **service de réservation immobilière** que vous avez créé dans le labo précédent.
 
@@ -129,7 +129,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Attendez la fin de l’enregistrement, puis fermez l’onglet Power Automate.
 
-### Tâche 1.2 : ajouter une action d’assistant pour récupérer une propriété
+### Tâche 1.2 : ajouter une action Copilot pour récupérer une propriété
 
 1. Sélectionnez **Actualiser** dans la boîte de dialogue Copilot Studio pour afficher le nouveau flux.
 
@@ -143,7 +143,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Cliquez sur **Terminer**.
 
-### Tâche 1.3 : ajouter l’action d’assistant Obtenir la propriété à la rubrique
+### Tâche 1.3 : ajouter l’action Copilot Obtenir la propriété à la rubrique
 
 1. Sélectionnez l’onglet **Rubriques**.
 
@@ -169,7 +169,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Cliquez sur **Enregistrer**.
 
-## Exercice 2 : créer une action d’assistant pour créer des données dans Dataverse
+## Exercice 2 - Créer une action Copilot pour créer des données dans Dataverse
 
 Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l’aide de flux cloud Power Automate.
 
@@ -233,7 +233,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Attendez la fin de l’enregistrement, puis fermez l’onglet Power Automate.
 
-### Tâche 2.2 : ajouter une action d’assistant pour créer une demande de réservation
+### Tâche 2.2 - Ajouter une action Copilot pour créer une demande de réservation
 
 1. Sélectionnez **Actualiser** dans la boîte de dialogue Copilot Studio pour afficher le nouveau flux.
 
@@ -245,7 +245,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Cliquez sur **Terminer**.
 
-### Tâche 2.3 : ajouter l’action d’assistant Créer une demande de réservation à la rubrique
+### Tâche 2.3 - Ajouter l’action Créer une demande de réservation Copilot à la rubrique
 
 1. Sélectionnez l’onglet **Rubriques**.
 
@@ -265,7 +265,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez **Publier**, puis **Publier** à nouveau.
 
-## Exercice 3 : tester les actions d’assistant
+## Exercice 3 - Tester les actions Copilot
 
 ### Tâche 3.1 - Effectuer une demande de réservation
 
@@ -279,7 +279,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
 
-1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
+1. Lorsque le message **Début de conversation** s’affiche, votre copilote lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 
     `I want to book a real estate showing`
 
