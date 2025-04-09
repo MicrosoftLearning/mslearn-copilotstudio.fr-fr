@@ -33,13 +33,13 @@ Les variables sont accessibles par d’autres rubriques.
 
 ### Tâche 1.1 : configurer l’étendue des variables
 
-1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
+1. Accédez au portail Microsoft Studio `https://studio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
 
 1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour fermer le panneau de test, le cas échéant.
 
-1. Sélectionnez **Copilotes** dans le volet de navigation gauche.
+1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
-1. Sélectionnez le copilote que vous avez créé dans le labo précédent.
+1. Sélectionnez l’assistant que vous avez créé dans le labo précédent.
 
 1. Sélectionnez l’onglet **Rubriques**.
 
@@ -123,7 +123,7 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
 1. Cliquez sur **Enregistrer**.
 
-### Tâche 2.5 : tester le copilote
+### Tâche 2.5 : tester l’assistant
 
 1. Le cas échéant, sélectionnez le bouton **Tester** en haut à droite de l’écran pour ouvrir le panneau de test.
 
@@ -135,11 +135,11 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
 1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
 
-1. Lorsque le message **Début de conversation** s’affiche, votre copilote lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
+1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 
     `I want to book a real estate showing`
 
-1. Le copilote répond avec la question « Quel est votre nom ? », comme illustré dans l’image suivante.
+1. L’assistant répond avec la question « Quel est votre nom ? », comme illustré dans l’image suivante.
 
     ![Capture d’écran du message de Début de conversation et de la réponse.](../media/conversation-start-message.png)
 
@@ -158,7 +158,7 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
     ![Capture d’écran de la carte adaptative avec les informations saisies.](../media/adaptive-card-information.png)
 
-## Exercice 3 : déployer un copilote
+## Exercice 3 : déployer l’assistant
 
 ### Tâche 3.1 : configurer l’authentification
 
@@ -178,7 +178,7 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
 1. Cliquez sur le **X** dans le coin supérieur droit pour fermer les **Paramètres**.
 
-### Tâche 3.2 : publier le copilote
+### Tâche 3.2 : publier l’assistant
 
 1. Sélectionnez **Publier** en haut à droite, puis sélectionnez **Publier** à nouveau.
 
@@ -188,4 +188,4 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
 1. Dans la zone de texte **Tapez votre message**, entrez **`I want to book a property`**.
 
-1. Répondez aux invites pour tester le copilote.
+1. Répondez aux invites pour tester l’agent.

@@ -11,7 +11,7 @@ Cet exercice devrait prendre environ **45** minutes.
 
 > **Note** : pour cet exercice, vous devez disposer d’une licence Copilot Studio ou bénéficier d’un [essai gratuit](https://go.microsoft.com/fwlink/p/?linkid=2252605).
 
-## Créer un copilote
+## Créer un agent
 
 Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aura initialement des capacités très limitées, que vous étendrez plus tard dans l’exercice.
 
@@ -50,7 +50,7 @@ Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aur
 1. Poursuivez la conversation pour définir votre agent, qui doit :
     - Avoir un nom approprié
     - Utilisez un ton convivial et professionnel.
-    - N’utilisez pas de sites web publics pour obtenir ses informations (vous ajouterez une source de connaissances à votre copilote ultérieurement).
+    - N’utilisez pas de sites web publics pour obtenir ses informations (vous ajouterez une source de connaissances à votre agent ultérieurement).
     - Évitez de donner des conseils fiscaux.
     
     Lorsque vous avez terminé, un aperçu de l’interface de conversation de votre agent s’affiche à côté de la conversation utilisée pour le créer.
@@ -128,7 +128,7 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
 
     La nouvelle rubrique doit être déclenchée par des expressions qui demandent un contact pour les dépenses et répondre avec un message indiquant à l’utilisateur ou l’utilisatrice d’envoyer un e-mail à l’adresse appropriée.
 
-1. Utilisez le bouton **Enregistrer** (en haut à droite) pour enregistrer la nouvelle rubrique dans votre copilote.
+1. Utilisez le bouton **Enregistrer** (en haut à droite) pour enregistrer la nouvelle rubrique dans votre assistant.
 
 1. Ouvrez le volet **Test** et entrez l’invite suivante :
 

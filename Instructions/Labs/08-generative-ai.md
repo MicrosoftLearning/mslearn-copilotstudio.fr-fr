@@ -10,11 +10,11 @@ lab:
 
 Dans ce labo, vous allez :
 
-- Créer des actions de copilote
+- Créer des actions d’agent
 
 ## Contenu du didacticiel
 
-- Comment utiliser la fonctionnalité de réponses génératives pour améliorer les réponses de votre copilote
+- Comment utiliser la fonctionnalité de réponses génératives pour améliorer les réponses de votre agent
 
 ## Étapes de labo de haut niveau
 
@@ -23,7 +23,7 @@ Dans ce labo, vous allez :
   
 ## Prérequis
 
-- Avoir effectué le **Labo : créer des actions Copilot**
+- Avoir effectué le **Labo : créer des actions d’assistant**
 
 ## Procédure détaillée
 
@@ -33,7 +33,7 @@ Dans ce labo, vous allez :
 
 1. S’il n’est pas encore ouvert, accédez au portail Microsoft Copilot Studio `https://copilotstudio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
 
-1. Sélectionnez **Copilotes** dans le volet de navigation de gauche.
+1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
 1. Sélectionnez le **service de réservation immobilière** que vous avez créé dans le labo précédent.
 
@@ -41,13 +41,13 @@ Dans ce labo, vous allez :
 
 1. Sélectionnez l’onglet **IA générative**.
 
-1. Sélectionnez **Générative** sous **Comment votre copilote doit-il interagir avec les personnes ?**.
+1. Sélectionnez **Générative** sous **Comment votre assistant doit-il interagir avec les personnes ?**.
 
 1. Sélectionnez **Moyen - Plus équilibré** pour **Quel niveau de modération de contenu souhaitez-vous appliquer ?**.
 
 1. Cliquez sur **Enregistrer**.
 
-    ![Volet IA générative dans les paramètres de Copilot Studio](../media/settings-generative-ai-2.png)
+    ![Volet IA générative dans les paramètres de Copilot Studio](../media/settings-generative-ai-2.png)
 
 1. Fermez le menu **Paramètres** en sélectionnant l’icône **X** en haut à droite de Copilot Studio.
 
@@ -159,7 +159,7 @@ Dans ce labo, vous allez :
 
 ## Exercice 4 - Tester l’IA générative
 
-### Tâche 4.1 Tester les connaissances du copilote
+### Tâche 4.1 : tester les connaissances de l’assistant
 
 1. Le cas échéant, sélectionnez le bouton **Tester** en haut à droite de l’écran pour ouvrir le panneau de test.
 
@@ -171,4 +171,4 @@ Dans ce labo, vous allez :
 
 1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
 
-1. Explorez le copilote et découvrez comment il utilise les sources de connaissances.
+1. Explorez l’assistant et découvrez comment il utilise les sources de connaissances.
