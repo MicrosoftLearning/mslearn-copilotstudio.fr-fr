@@ -14,7 +14,7 @@ Dans ce labo, vous allez :
 
 ## Contenu du didacticiel
 
-- Comment créer et utiliser des entités pour améliorer l’assistant
+- Comment créer et utiliser des entités pour améliorer le copilote
 
 ## Étapes de labo de haut niveau
 
@@ -35,7 +35,7 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
-1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
+1. Sélectionnez **Copilotes** dans le volet de navigation gauche.
 
 1. Sélectionnez le **service de réservation immobilière** que vous avez créé dans le labo précédent.
 
@@ -89,13 +89,13 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Cliquez sur **Fermer**.
 
-## Exercice 2 : utiliser des entités pour améliorer l’assistant
+## Exercice 2 - Utiliser des entités pour améliorer le copilote
 
-Utilisez des entités dans le flux conversationnel pour améliorer l’assistant.
+Utilisez des entités dans le flux conversationnel pour améliorer le copilote.
 
 ### Tâche 2.1 - Utiliser des entités
 
-1. Sélectionnez l’icône **X** en haut à droite pour fermer les paramètres et revenir à votre assistant.
+1. Sélectionnez l’icône **X** en haut à droite pour fermer les paramètres et revenir à Copilot.
 
 1. Sélectionnez l’onglet **Rubriques**.
 

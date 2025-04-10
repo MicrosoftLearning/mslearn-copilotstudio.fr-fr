@@ -1,37 +1,37 @@
 ---
 lab:
-  title: Créer un agent initial
-  module: Build an initial agent with Microsoft Copilot Studio
+  title: Créer un copilote initial
+  module: Build an initial copilot with Microsoft Copilot Studio
 ---
 
-# Créer un agent initial
+# Créer un copilote initial
 
 ## Scénario
 
 Dans ce labo, vous allez :
 
-- Créer et nommer un assistant
-- Ajouter une description de ce que l’assistant doit faire
+- Créer et nommer un copilote
+- Ajouter une description de ce que le copilote doit faire
 - Configurer les réponses de l’IA générative
 
 ## Contenu du didacticiel
 
-- Comment créer un assistant en utilisant le langage naturel
-- Comment configurer des réponses d’IA générative pour un assistant
+- Comment générer un copilote en utilisant le langage naturel
+- Guide pratique pour configurer des réponses d’IA générative pour un copilote
 
 ## Étapes de labo de haut niveau
 
-- Créer un agent
-- Indiquer à l’assistant quel est son objectif principal et comment il doit agir
+- Créer un nouveau copilote.
+- Indiquer au copilote quel est son objectif principal et comment il doit agir
 - Configurer les instructions de l’IA générative
   
 ## Prérequis
 
 - Avoir effectué le **Labo : importer une solution Dataverse**
 
-## Exercice 1 : créer un assistant
+## Exercice 1 – Créer un copilote
 
-Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l’environnement de développeur et créer un assistant.
+Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l’environnement de développeur et créer un copilote.
 
 ### Tâche 1.1 – Portail Microsoft Copilot Studio
 
@@ -41,9 +41,9 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 1. Assurez-vous que vous êtes dans l’environnement approprié.
 
-### Tâche 1.2 : créer un assistant
+### Tâche 1.2 – Créer un copilote
 
-1. Sélectionnez **Créer** dans le volet de navigation de gauche, puis sélectionnez la vignette **Nouvel assistant** et **Ignorer la configuration** en haut à droite.
+1. Sélectionnez **Créer** dans le volet de navigation gauche, puis sélectionnez la vignette **Nouvel agent** et **Ignorer la configuration** en haut à droite.
 
     ![Créez dans le portail Copilot Studio.](../media/create-copilot-agent.png)
 
@@ -51,11 +51,11 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 1. Dans la zone de texte **Description**, entrez **`Create bookings for real estate properties`**.
 
-1. Dans la zone de texte **Instructions**, entrez **`Create an agent for topics relating to creating bookings for real estate properties`**.
+1. Dans la zone de texte **Instructions**, entrez **`Create a copilot for topics relating to creating bookings for real estate properties`**.
 
 1. En haut, la **langue** doit être définie sur **English (en-US)**.
 
-    ![Langue de l’assistant Copilot.](../media/copilot-agent-language.png)
+    ![Langage de l’agent Copilot.](../media/copilot-agent-language.png)
 
 1. En haut à droite de la page, sélectionnez les **trois points**, puis **Modifier les paramètres avancés**.
 
@@ -77,7 +77,7 @@ Laissez cette fenêtre ouverte.
 
 ## Exercice 2 – Ajouter des réponses d’IA générative
 
-Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et ajouter des connaissances que l’agent utilisera pour répondre aux questions à l’aide de l’IA générative.
+Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et ajouter des connaissances que le copilote utilisera pour répondre aux questions à l’aide de l’IA générative.
 
 ### Tâche 2.1 – Activer les réponses de l’IA générative
 
