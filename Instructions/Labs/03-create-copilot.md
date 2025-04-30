@@ -43,7 +43,9 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 ### Tâche 1.2 : créer un assistant
 
-1. Sélectionnez **Créer** dans le volet de navigation gauche, puis sélectionnez **+ Nouvel agent** et **Ignorer la configuration** en haut à droite.
+1. Sélectionnez **Créer** dans le volet de navigation de gauche, puis sélectionnez la vignette **Nouvel assistant** et **Ignorer la configuration** en haut à droite.
+
+    ![Créez dans le portail Copilot Studio.](../media/create-copilot-agent.png)
 
 1. Dans la zone de texte **Nom**, entrez **`Real Estate Booking Service`**.
 
@@ -91,6 +93,8 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et aj
 
 1. Sélectionnez **+ Ajouter des connaissances**.
 
+    ![Sources de connaissances dans le portail Copilot Studio.](../media/knowledge-sources.png)
+
 1. Sélectionnez **Sites web publics**.
 
 1. Dans la zone de texte **Lien du site web public**, entrez **`https://create.microsoft.com/en-us/`**.
@@ -102,16 +106,19 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et aj
 1. Sélectionnez **Ajouter**.
 
 1. Sélectionnez l’onglet **Vue d’ensemble**.
-    
+
+    ![Copilote personnalisé dans le portail Copilot Studio.](../media/copilot-studio-copilot2.png)
+
 1. Sélectionnez les **trois points** en haut du volet **Tester votre agent**.
 
 1. Activez **Suivi des rubriques**.
 
     ![Capture d’écran illustrant les options du panneau de test.](../media/test-pane-options.png)
 
-1. En haut du volet **Tester votre agent**, sélectionnez l’icône **Commencer une nouvelle conversation** (icône d’actualisation).
-    ![Capture d’écran des options du panneau de test.](../media/copilot-test-pane-start-new-conversation.png)
+1. En haut du volet **Tester votre agent**, sélectionnez l’icône **Démarrer une nouvelle conversation** (icône d’actualisation) en regard du **X**.
 
-1. Dans la zone de texte **Poser une question ou décrire ce dont vous avez besoin**, entrez **`How do I boost real estate promotion?`**.
+    ![Capture d’écran illustrant les options du panneau de test.](../media/copilot-test-pane-start-new-conversation.png)
+
+1. Dans la zone de texte **Tapez votre message**, entrez **`How do I boost real estate promotion?`**.
 
     ![Capture d’écran des résultats du volet Test.](../media/test-pane-results.png)

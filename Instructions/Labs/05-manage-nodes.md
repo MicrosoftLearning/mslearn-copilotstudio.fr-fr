@@ -33,7 +33,7 @@ Les variables sont accessibles par d’autres rubriques.
 
 ### Tâche 1.1 : configurer l’étendue des variables
 
-1. Accédez au portail Microsoft Studio `https://copilotstudio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
+1. Accédez au portail Microsoft Studio `https://studio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
 
 1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour fermer le panneau de test, le cas échéant.
 
