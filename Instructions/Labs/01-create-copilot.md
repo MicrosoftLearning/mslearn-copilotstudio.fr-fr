@@ -11,7 +11,7 @@ Cet exercice devrait prendre environ **45** minutes.
 
 > **Note** : pour cet exercice, vous devez disposer d’une licence Copilot Studio ou bénéficier d’un [essai gratuit](https://go.microsoft.com/fwlink/p/?linkid=2252605).
 
-## Créer un copilote
+## Créer un agent
 
 Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aura initialement des capacités très limitées, que vous étendrez plus tard dans l’exercice.
 
@@ -29,7 +29,7 @@ Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aur
 
 1. Dans le volet de navigation de gauche, sélectionnez **Créer** pour afficher une page sur laquelle vous pouvez créer un agent, comme suit :
 
-    ![Capture d’écran de la page Créer dans Copilot Studio.](media/create-copilot.png)
+    ![Capture d’écran de la page Créer dans Copilot Studio.](media/create-copilot-agent.png)
 
     Vous pouvez créer un nouvel agent ou commencer par un modèle. Dans cet exercice, vous allez créer un nouvel agent.
 
@@ -50,7 +50,7 @@ Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aur
 1. Poursuivez la conversation pour définir votre agent, qui doit :
     - Avoir un nom approprié
     - Utilisez un ton convivial et professionnel.
-    - N’utilisez pas de sites web publics pour obtenir ses informations (vous ajouterez une source de connaissances à votre copilote ultérieurement).
+    - N’utilisez pas de sites web publics pour obtenir ses informations (vous ajouterez une source de connaissances à votre agent ultérieurement).
     - Évitez de donner des conseils fiscaux.
     
     Lorsque vous avez terminé, un aperçu de l’interface de conversation de votre agent s’affiche à côté de la conversation utilisée pour le créer.
@@ -112,9 +112,9 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
 1. Revenez à la page **Rubriques** et affichez les rubriques **Système**. Notez qu’elles incluent des rubriques pour les événements courants dans une conversation. Prenez particulièrement en compte les rubriques système suivantes :
     - **Boosting conversationnel** : cette rubrique est déclenchée lorsque l’utilisateur ou l’utilisatrice envoie un message dans lequel l’agent n’identifie aucune rubrique (l’*intention* de l’utilisateur ou l’utilisatrice est inconnue). La rubrique tente alors de répondre au message de l’utilisateur ou l’utilisatrice à l’aide de l’IA générative.
     - **De base** : cette rubrique est « de secours » qui répond lorsque l’intention est inconnue et qu’il est impossible de générer une réponse d’IA conversationnelle appropriée. La rubrique de base inclut la logique permettant à l’utilisateur ou l’utilisatrice de réessayer jusqu’à trois fois avant de mettre cordialement fin à la conversation, souvent en passant à un opérateur humain.
-1. Revenez à la page **Rubriques**, puis, dans le menu **+ Ajouter une rubrique**, sélectionnez **Rubrique** \> **Créer à partir de la description avec Copilot**.
+1. Revenez à la page **Sujets**, puis dans le menu **+ Ajouter un sujet**, sélectionnez **Sujet**\>**Créer à partir d’une description avec Copilot**.
 
-1. Dans la boîte de dialogue **Créer une description avec Copilot**, nommez la nouvelle rubrique `Ask about expenses contact` et entrez le texte suivant pour indiquer à Copilot ce que la rubrique doit faire :
+1. Dans la boîte de dialogue **Créer à partir d’une description avec Copilot**, nommez le nouveau sujet `Ask about expenses contact`et saisissez le texte suivant pour indiquer à Copilot ce que le sujet doit faire :
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
@@ -122,13 +122,15 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
 
 1. Sélectionnez **Créer**.
 
+1. Si vous y êtes invité, sélectionnez **Autoriser** pour **voir le texte et les images copiés dans le presse-papiers**.
+
 1. Après une courte attente, une nouvelle rubrique nommée *Demander un contact pour les dépenses* doit être créée et ouverte dans le canevas de création, où elle devrait ressembler à ce qui suit :
 
     ![Capture d’écran de la rubrique générée par Copilot](media/copilot-studio-topic.png)
 
     La nouvelle rubrique doit être déclenchée par des expressions qui demandent un contact pour les dépenses et répondre avec un message indiquant à l’utilisateur ou l’utilisatrice d’envoyer un e-mail à l’adresse appropriée.
 
-1. Utilisez le bouton **Enregistrer** (en haut à droite) pour enregistrer la nouvelle rubrique dans votre copilote.
+1. Utilisez le bouton **Enregistrer** (en haut à droite) pour enregistrer la nouvelle rubrique dans votre assistant.
 
 1. Ouvrez le volet **Test** et entrez l’invite suivante :
 
@@ -180,9 +182,9 @@ Maintenant que vous disposez d’un agent opérationnel, vous pouvez le publier 
 
 1. Masquez le volet **Tester votre agent**. Ensuite, en haut de la page, sélectionnez l’onglet **Canaux** et passez en revue les canaux sur lesquels vous pouvez déployer votre agent. Les canaux disponibles dépendent des paramètres d’authentification de votre agent.
 1. Sélectionnez **Paramètres** en haut de la page.
-1. Dans le volet **Paramètres**, sur la page **Sécurité**, sélectionnez **Authentification**. Sélectionnez ensuite l’option **Sans authentification** et **enregistrez** les modifications de la configuration (ce qui confirme que vous souhaitez activer l’accès à l’agent pour tout le monde).
+1. Dans le volet **Paramètres**, sur la page **Sécurité**, sélectionnez **Authentification**. Sélectionnez ensuite l’option **Pas d’authentification** et **Enregistrez** les modifications de la configuration (en confirmant que vous souhaitez activer l’accès à l’agent pour tout le monde).
 1. Fermez le volet **Paramètres**. Ensuite, affichez la page **Canaux**.
-1. sélectionnez **Publier** en haut de la page. Ensuite, sur la page **Publier**, sélectionnez **Publier** et publiez votre agent. La publication prend environ une minute.
+1. sélectionnez **Publier** en haut de la page. Ensuite, sur la page **Publier**, sélectionnez **Publier**. La publication prend environ une minute.
 1. Une fois votre agent publié, vérifiez le **Statut de la publication** sur la page **Canaux**.
 
     ![Capture d’écran de la page Canaux dans Copilot Studio.](media/channels-page.png)

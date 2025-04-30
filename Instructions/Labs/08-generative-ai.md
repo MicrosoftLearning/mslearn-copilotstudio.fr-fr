@@ -112,6 +112,7 @@ Dans ce labo, vous allez :
 ### Tâche 2.2 - Ajouter des connaissances à partir de fichiers
 
 1. Téléchargez cette [**étude de cas Microsoft**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) ou [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) à partir de GitHub.
+> ℹ️**NOTE :** le lien vers l’étude de cas Microsoft se trouve ici : `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
 1. Sélectionnez **+ Ajouter des connaissances**.
 
