@@ -16,7 +16,7 @@ Dans ce labo, vous allez :
 
 ## Contenu du didacticiel
 
-- Comment configurer des rubriques Copilot
+- Comment configurer les rubriques de l’assistant
 
 ## Étapes de labo de haut niveau
 
@@ -27,13 +27,13 @@ Dans ce labo, vous allez :
   
 ## Prérequis
 
-- Avoir terminé le **Labo : créer un copilote initial**
+- Avoir terminé le **Labo : créer un assistant initial**
 
 ## Procédure détaillée
 
 ## Exercice 1 – Supprimer des rubriques
 
-Dans cet exercice, vous allez supprimer les rubriques d’un copilote.
+Dans cet exercice, vous allez supprimer les rubriques d’un assistant.
 
 ### Tâche 1.1 – Désactiver des rubriques
 
@@ -41,23 +41,23 @@ Dans cet exercice, vous allez supprimer les rubriques d’un copilote.
 
 1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour fermer le panneau de test, le cas échéant.
 
-1. Cliquez sur **Agents** dans le volet de navigation gauche.
+1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
-    ![Copilotes dans le portail Copilot Studio.](../media/copilot-studio-copilots.png)
+    ![Assistants dans le portail Copilot Studio.](../media/copilot-studio-copilots.png)
 
-1. Sélectionnez le copilote que vous avez créé dans le labo précédent.
+1. Sélectionnez l’assistant que vous avez créé dans le labo précédent.
 
 1. Sélectionnez l’onglet **Rubriques**.
 
-    ![Onglet Rubriques dans le portail Copilot Studio.](../media/topics-tab.png)
+    ![Onglet Rubriques dans le portail Copilot Studio.](../media/topics-tab.png)
 
 1. Cliquez sur **Activé** pour passer sur **Désactivé** pour la rubrique **Redémarrage**.
 
-    ![Rubriques supprimées et désactivées dans le portail Copilot Studio.](../media/topics-removed.png)
+    ![Rubriques supprimées et désactivées dans le portail Copilot Studio.](../media/topics-removed.png)
 
 ## Exercice 2 – Créer des rubriques avec le langage naturel
 
-Dans cet exercice, vous allez créer des rubriques dans un copilote et ajouter des expressions déclencheuses.
+Dans cet exercice, vous allez créer des rubriques dans un assistant et ajouter des expressions déclencheuses.
 
 ### Tâche 2.1 – Ajouter une rubrique à l’aide de Copilot
 
@@ -77,7 +77,7 @@ Dans cet exercice, vous allez créer des rubriques dans un copilote et ajouter d
 
 ### Tâche 2.2 – Mettre à jour les nœuds avec le langage naturel
 
-1. Si le volet **Modifier avec CoPilot** n’apparaît pas à droite du volet **Détails du client**, sélectionnez l’icône **Copilot** dans la partie supérieure du canevas de création.
+1. Si le volet **Modifier avec Copilot** n’apparaît pas à droite du volet **Détails du client**, sélectionnez l’icône **Copilot** dans la partie supérieure du canevas de création.
 
     ![Capture d’écran de l’icône Modifier avec Copilot.](../media/edit-with-copilot.png)
 
