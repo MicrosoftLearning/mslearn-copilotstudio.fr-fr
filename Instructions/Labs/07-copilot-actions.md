@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Créer des actions de copilote
+  title: Créer des actions d’agent
   module: Enhance Microsoft Copilot Studio copilots
 ---
 
@@ -10,7 +10,7 @@ lab:
 
 Dans ce labo, vous allez :
 
-- Créer des actions de copilote
+- Créer des actions d’agent
 
 ## Contenu du didacticiel
 
@@ -18,8 +18,8 @@ Dans ce labo, vous allez :
 
 ## Étapes de labo de haut niveau
 
-- Créer un flux de cloud Power Automate pour récupérer des données Dataverse avec une action copilote
-- Créer un flux de cloud Power Automate pour créer des données Dataverse avec une action copilote
+- Créer un flux de cloud Power Automate pour récupérer des données Dataverse avec une action d’assistant
+- Créer un flux de cloud Power Automate pour créer des données Dataverse avec une action d’assistant
   
 ## Prérequis
 
@@ -27,7 +27,7 @@ Dans ce labo, vous allez :
 
 ## Procédure détaillée
 
-## Exercice 1 : créer une action Copilot pour récupérer des données à partir de Dataverse
+## Exercice 1 : créer une action d’assistant pour récupérer des données à partir de Dataverse
 
 Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse à l’aide de flux de cloud Power Automate.
 
@@ -35,7 +35,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
-1. Sélectionnez **Copilotes** dans le volet de navigation gauche.
+1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
 1. Sélectionnez le **service de réservation immobilière** que vous avez créé dans le labo précédent.
 
@@ -43,17 +43,15 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Sélectionnez **+ Ajouter une action**.
 
+1. Sélectionnez les **points de suspension (...)**, puis sélectionnez **Flux**.
+
     ![Capture d’écran de l’étape 1 d’ajout d’une action.](../media/add-action-step-1.png)
 
-1. Sélectionnez le filtre **Flux**, puis **Exécuter un flux avec Power Automate pour le bureau**.
+1. Sélectionnez **Nouvelle action**, puis sélectionnez **Nouveau flux Power Automate**.
 
-1. Connectez-vous à Power Automate si nécessaire.
+1. Sélectionnez **Exécuter un flux à partir de Copilot** en haut à gauche de l’écran et entrez `Get Property` pour le nom du flux.
 
-    ![Capture d’écran du flux Power Automate avec des étapes de déclencheur et de réponse.](../media/create-flow-step1.png)
-
-1. Sélectionnez **Exécuter un flux à partir de Copilot** en haut à gauche de l’écran et entrez `Get Property` comme nom du flux.
-
-1. Sélectionnez l’étape de déclencheur **Exécuter un flux à partir de Copilot**, puis cliquez sur **+ Ajouter une entrée**.
+1. Sélectionnez l’étape de déclenchement **Quand un agent appelle le flux**, puis sélectionnez **+ Ajouter une entrée**.
 
 1. Sélectionnez **Texte**.
 
@@ -61,7 +59,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
     ![Capture d’écran des propriétés du déclencheur du flux.](../media/create-flow-step2.png)
 
-1. Sélectionnez l’icône **+** entre les deux étapes du flux, puis sélectionnez **Ajouter une action**.
+1. Sélectionnez l’icône **+** entre les deux étapes du flux pour ajouter une nouvelle action.
 
 1. Entrez `Dataverse` dans le **champ de recherche** et sélectionnez **Afficher plus** pour le connecteur **Microsoft Dataverse**.
 
@@ -125,31 +123,41 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
     ![Capture d’écran des paramètres d’action de réponse.](../media/create-flow-step6.png)
 
-1. Sélectionnez **Enregistrer** en haut à droite de la page.
+1. Sélectionnez **Enregistrer le brouillon** en haut à droite de la page.
 
-1. Attendez la fin de l’enregistrement, puis fermez l’onglet Power Automate.
+1. Attendez que l’enregistrement soit terminé, sélectionnez **Publier**, puis fermez l’onglet Power Automate une fois la publication terminée.
 
-### Tâche 1.2 : ajouter une action Copilot pour récupérer une propriété
+### Tâche 1.2 : ajouter une action d’assistant pour récupérer une propriété
 
 1. Sélectionnez **Actualiser** dans la boîte de dialogue Copilot Studio pour afficher le nouveau flux.
 
-1. Sélectionnez le flux **Obtenir la propriété**.
-
     ![Capture d’écran de l’étape 1 d’ajout d’une action de flux.](../media/add-action-flow-step-1.png)
 
-1. Cliquez sur **Suivant**.
+1. Sélectionnez le flux **Obtenir la propriété**.
 
-1. Cliquez sur **Suivant**.
+1. Développez **Entrées et sorties**
 
-1. Cliquez sur **Terminer**.
+    ![Capture d’écran de l’ajout de sorties à une action de flux.](../media/add-action-flow-step-1a.png)
 
-### Tâche 1.3 : ajouter l’action Copilot Obtenir la propriété à la rubrique
+1. Sélectionnez **+ Ajouter** pour les **Sorties**.
+
+1. Sélectionnez **PropertyId**.
+
+1. Sélectionnez **+ Ajouter** pour les **Sorties**.
+
+1. Sélectionnez **PropertyName**.
+
+    ![Capture d’écran des sorties ajoutées à une action de flux.](../media/add-action-flow-step-1b.png)
+
+1. Cliquez sur **Ajouter une action**.
+
+### Tâche 1.3 : ajouter l’action d’assistant Obtenir la propriété à la rubrique
 
 1. Sélectionnez l’onglet **Rubriques**.
 
 1. Sélectionnez la rubrique **Réserver une visite immobilière**.
 
-1. Sélectionnez l’icône **+** sous le nœud **Question De combien de chambres avez-vous besoin ?**, sélectionnez **Appeler une action**, puis sélectionnez le flux **Obtenir la propriété**.
+1. Sélectionnez l’icône **+** sous le nœud **question Combien de chambres souhaitez-vous ?**, sélectionnez **Ajouter une action**, puis sélectionnez le flux **Obtenir la propriété**.
 
     ![Capture d’écran de l’étape 2 d’ajout d’une action de flux.](../media/add-action-flow-step-2.png)
 
@@ -169,7 +177,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Cliquez sur **Enregistrer**.
 
-## Exercice 2 - Créer une action Copilot pour créer des données dans Dataverse
+## Exercice 2 : créer une action d’assistant pour créer des données dans Dataverse
 
 Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l’aide de flux cloud Power Automate.
 
@@ -179,11 +187,11 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez **+ Ajouter une action**.
 
-1. Faites défiler la page et sélectionnez **Créer un flux**.
+1. Sélectionnez **+ Nouvelle action**, puis **Nouveau flux Power Automate**.
 
 1. Sélectionnez **Exécuter un flux à partir de Copilot** en haut à gauche de l’écran et entrez `Create Booking Request` pour le nom du flux.
 
-1. Sélectionnez l’étape de déclencheur **Exécuter un flux à partir de Copilot**, puis cliquez sur **+ Ajouter une entrée**.
+1. Sélectionnez l’étape de déclenchement **Quand un agent appelle le flux**, puis sélectionnez **+ Ajouter une entrée**.
 
 1. Sélectionnez **Texte**.
 
@@ -203,7 +211,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
     ![Capture d’écran de la configuration de l’action des paramètres de flux.](../media/create-flow2-step1.png)
 
-1. Sélectionnez l’icône **+** entre les deux étapes du flux, puis sélectionnez **Ajouter une action**.
+1. Sélectionnez l’icône **+** entre les deux étapes du flux pour ajouter une nouvelle action.
 
 1. Entrez `Dataverse` dans le **champ de recherche** et sélectionnez **Afficher plus** pour le connecteur **Microsoft Dataverse**.
 
@@ -229,29 +237,25 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Vérifiez que la **réponse asynchrone** est définie sur **Désactivé**.
 
-1. Cliquez sur **Enregistrer** en haut à droite de la fenêtre.
+1. Sélectionnez **Enregistrer le brouillon** en haut à droite de la fenêtre.
 
-1. Attendez la fin de l’enregistrement, puis fermez l’onglet Power Automate.
+1. Attendez la fin de l’enregistrement, sélectionnez **Publier**, puis fermez l’onglet Power Automate.
 
-### Tâche 2.2 - Ajouter une action Copilot pour créer une demande de réservation
+### Tâche 2.2 : ajouter une action d’assistant pour créer une demande de réservation
 
 1. Sélectionnez **Actualiser** dans la boîte de dialogue Copilot Studio pour afficher le nouveau flux.
 
 1. Sélectionnez le flux **Créer une demande de réservation**.
 
-1. Cliquez sur **Suivant**.
+1. Cliquez sur **Ajouter une action**.
 
-1. Cliquez sur **Suivant**.
-
-1. Cliquez sur **Terminer**.
-
-### Tâche 2.3 - Ajouter l’action Créer une demande de réservation Copilot à la rubrique
+### Tâche 2.3 : ajouter l’action d’assistant Créer une demande de réservation à la rubrique
 
 1. Sélectionnez l’onglet **Rubriques**.
 
 1. Sélectionnez la rubrique **Réserver une visite immobilière**.
 
-1. Sélectionnez l’icône **+** sous le nœud **À quelle date et quelle heure souahitez-vous voir la propriété ?**, puis **Appeler une action** et enfin le flux **Créer une demande de réservation**.
+1. Sélectionnez l’icône **+** sous le nœud **À quelle date et à quelle heure souhaitez-vous visiter le bien ?**, sélectionnez **Ajouter une action**, puis sélectionnez le flux **Créer une demande de réservation**.
 
 1. Sélectionnez la variable **PropertyId** pour le paramètre d’entrée **PropertyId**.
 
@@ -265,7 +269,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez **Publier**, puis **Publier** à nouveau.
 
-## Exercice 3 - Tester les actions Copilot
+## Exercice 3 : tester les actions d’assistant
 
 ### Tâche 3.1 - Effectuer une demande de réservation
 
@@ -279,7 +283,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
 
-1. Lorsque le message **Début de conversation** s’affiche, votre copilote lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
+1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 
     `I want to book a real estate showing`
 
@@ -287,6 +291,8 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
     ```
     Name: <Your name>
+    ```
+    ```
     Email address: <Your email address>
     ```
 
@@ -305,6 +311,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 1. Sélectionnez une note.
 
 1. Sélectionnez **Non** à l’invite **Puis-je vous aider avec autre chose ?**.
+    >[!Note] Aucune réponse n’est générée.
 
 ### Tâche 3.2 - Vérifier la demande de réservation
 

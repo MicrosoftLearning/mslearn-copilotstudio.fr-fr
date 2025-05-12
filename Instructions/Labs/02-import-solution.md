@@ -18,7 +18,7 @@ Dans cet exercice, vous allez importer une solution Dataverse dans votre environ
 
 1. Dans un nouvel onglet de navigateur, accédez à `https://make.powerapps.com`.
 
-1. Si l’on vous demande vos informations d’identification, connectez-vous avec votre adresse e-mail et votre mot de passe.
+1. Si des informations d’identification sont demandées, connectez-vous avec votre adresse e-mail et votre mot de passe.
 
 1. Si l’on vous demande vos coordonnées, définissez le pays/la région, puis sélectionnez **Démarrer**.
 
@@ -75,6 +75,7 @@ Dans cet exercice, vous allez importer une solution Dataverse dans votre environ
 1. Saisissez les informations suivantes :
 
     - **Nom de propriété :** `1100 High Villas`
+    - **Propriétaire :** sélectionnez votre utilisateur
     - **Prix demandé :** `250,000`
     - **Rue :** `Main Avenue`
     - **Ville :** `Redmond`
@@ -90,12 +91,13 @@ Dans cet exercice, vous allez importer une solution Dataverse dans votre environ
 1. Saisissez les informations suivantes :
 
     - **Nom de propriété :** `555 Oak Lane`
+    - **Propriétaire :** sélectionnez votre utilisateur
     - **Prix demandé :** `300,000`
     - **Rue :** `Oak Lane`
     - **Ville :** `Denver`
     - **Chambres :** `4`
     - **Salles de bain :** `3`
 
-    ![Vue d’ensemble.](../media/add-record.png)
+    ![Vue d’ensemble.](../media/add-record2.png)
 
 1. Sélectionnez **Enregistrer et fermer**.
