@@ -103,19 +103,15 @@ Dans ce labo, vous allez :
 
     ![Capture d’écran de l’ajout de connaissances à partir de sites web.](../media/add-dataverse-knowedge-step1.png)
 
-1. Cliquez sur **Suivant**.
-
-1. Cliquez sur **Suivant**.
-
 1. Sélectionnez **Ajouter**.
 
 ### Tâche 2.2 - Ajouter des connaissances à partir de fichiers
 
 1. Téléchargez cette [**étude de cas Microsoft**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) ou [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) à partir de GitHub.
 
-1. Sélectionnez **+ Ajouter des connaissances**.
+> ℹ️**NOTE :** le lien vers l’étude de cas Microsoft se trouve ici : `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
-1. Sélectionnez **Fichiers**.
+1. Sélectionnez **+ Ajouter des connaissances**.
 
 1. Sous **Charger des fichiers**, parcourez et sélectionnez l’étude de cas que vous avez téléchargée.
 
@@ -139,7 +135,7 @@ Dans ce labo, vous allez :
 
 1. Sélectionnez l’icône **+** sous le nœud **Condition**, puis **Avancé**, et enfin **Réponses génératives**.
 
-1. Sélectionnez **Activity.Text** pour le champ **Entrée**.
+1. Sélectionnez l’onglet **Système** et sélectionnez **Activity.Text** pour le **champ Entrée**.
 
 1. Sélectionnez **Modifier** sous **Sources de données**.
 

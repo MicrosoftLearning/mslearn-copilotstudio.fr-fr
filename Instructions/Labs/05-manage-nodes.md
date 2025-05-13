@@ -33,7 +33,7 @@ Les variables sont accessibles par d’autres rubriques.
 
 ### Tâche 1.1 : configurer l’étendue des variables
 
-1. Accédez au portail Microsoft Studio `https://studio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
+1. Accédez au portail Microsoft Studio `https://copilotstudio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
 
 1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour fermer le panneau de test, le cas échéant.
 
@@ -143,12 +143,7 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
     ![Capture d’écran du message de Début de conversation et de la réponse.](../media/conversation-start-message.png)
 
-1. Saisissez les informations suivantes :
-
-    ```
-    Name: <Your name>
-    Email address: <Your email address>
-    ```
+1. Entrez votre nom et votre adresse e-mail.
 
 1. Une fois les informations fournies, une carte adaptative affiche les informations que vous avez entrées et vous demande si les détails sont corrects. Sélectionnez **Oui**.
 
