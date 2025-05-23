@@ -61,7 +61,7 @@ Dans cet exercice, vous allez créer des rubriques dans un assistant et ajouter 
 
 ### Tâche 2.1 – Ajouter une rubrique à l’aide de Copilot
 
-1. Sélectionnez **+ Ajouter une rubrique**, puis **Créer à partir d’une description avec Copilot**. Une nouvelle fenêtre s’affiche.
+1. Sélectionnez **+ Ajouter un sujet**, puis sélectionnez **Créer à partir d’une description avec Copilot**. Une nouvelle fenêtre s’affiche.
 
     ![Créez une rubrique avec Copilot.](../media/topic-create-from-description-2.png)
 
@@ -87,7 +87,7 @@ Dans cet exercice, vous allez créer des rubriques dans un assistant et ajouter 
 
 1. Dans le volet **Modifier avec Copilot**, dans le champ **Que voulez-vous faire ?**, saisissez le texte suivant :
 
-    `Update the message in this Question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. Sélectionnez **Mettre à jour**.
 
