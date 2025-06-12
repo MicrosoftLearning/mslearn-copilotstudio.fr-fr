@@ -1,16 +1,18 @@
 ---
 lab:
   title: Utiliser l’IA générative dans Microsoft Copilot Studio
-  module: Enhance Microsoft Copilot Studio copilots
+  module: Enhance Microsoft Copilot Studio agents
 ---
 
 # Utiliser l’IA générative dans Microsoft Copilot Studio
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans cet exercice, vous allez :
 
-- Créer des actions d’agent
+- Utiliser les connaissances et l’IA générative dans votre agent
+
+Cet exercice devrait prendre environ **30** minutes.
 
 ## Contenu du didacticiel
 
@@ -41,7 +43,7 @@ Dans ce labo, vous allez :
 
 1. Sélectionnez l’onglet **IA générative**.
 
-1. Sélectionnez **Générative** sous **Comment votre assistant doit-il interagir avec les personnes ?**.
+1. Sélectionnez **Génératif** sous **Comment votre assistant doit-il interagir avec les personnes ?**.
 
 1. Sélectionnez **Moyen - Plus équilibré** pour **Quel niveau de modération de contenu souhaitez-vous appliquer ?**.
 
@@ -113,7 +115,7 @@ Dans ce labo, vous allez :
 
 1. Sélectionnez **+ Ajouter des connaissances**.
 
-1. Sous **Charger des fichiers**, parcourez et sélectionnez l’étude de cas que vous avez téléchargée.
+1. Sous **Charger un fichier**, parcourez et sélectionnez l’étude de cas que vous avez téléchargée.
 
     ![Capture d’écran de l’ajout de connaissances à partir de fichiers.](../media/add-file-knowledge.png)
 

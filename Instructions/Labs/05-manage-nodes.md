@@ -8,9 +8,12 @@ lab:
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans cet exercice, vous allez :
 
 - Créer le flux conversationnel
+- gérer les variables ;
+
+Cet exercice devrait prendre environ **30** minutes.
 
 ## Contenu du didacticiel
 
@@ -20,6 +23,7 @@ Dans ce labo, vous allez :
 
 - Configurer l’étendue des variables
 - Créer et modifier des nœuds
+- Déployer et tester l’agent
   
 ## Prérequis
 

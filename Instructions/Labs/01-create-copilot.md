@@ -1,13 +1,14 @@
 ---
 lab:
   title: "Créer un assistant avec Copilot\_Studio"
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
 # Créer un assistant avec Copilot Studio
 
-Dans cet exercice, vous allez utiliser Copilot Studio pour créer un assistant simple qui peut répondre aux questions des employés sur les politiques de dépenses dans une société fictive.
+Dans cet exercice, vous allez utiliser Copilot Studio pour créer un agent simple qui peut répondre aux questions des employés sur les politiques de dépenses dans une société fictive.
 
-Cet exercice devrait prendre environ **45** minutes.
+Cet exercice devrait prendre environ **30** minutes.
 
 > **Note** : pour cet exercice, vous devez disposer d’une licence Copilot Studio ou bénéficier d’un [essai gratuit](https://go.microsoft.com/fwlink/p/?linkid=2252605).
 
@@ -35,7 +36,7 @@ Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aur
 
 1. Sélectionnez l’option pour créer un **Nouvel agent**. Copilot Studio répond en fournissant une interface de conversation dans laquelle vous pouvez décrire les fonctionnalités de l’agent que vous souhaitez générer.
 
-    >**Conseil** : vous pouvez utiliser l’option **Passer à la configuration** pour ignorer l’expérience de création de l’agent basé sur les conversations. Dans cet exercice, nous allons utiliser l’interface de conversation.
+    > **Conseil** : vous pouvez utiliser l’option **Passer à la configuration** pour ignorer l’expérience de création de l’agent basé sur les conversations. Dans cet exercice, nous allons utiliser l’interface de conversation.
 
 1. Entrez l’invite suivante :
 
@@ -114,7 +115,7 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
     - **De base** : cette rubrique est « de secours » qui répond lorsque l’intention est inconnue et qu’il est impossible de générer une réponse d’IA conversationnelle appropriée. La rubrique de base inclut la logique permettant à l’utilisateur ou l’utilisatrice de réessayer jusqu’à trois fois avant de mettre cordialement fin à la conversation, souvent en passant à un opérateur humain.
 1. Revenez à la page **Sujets**, puis dans le menu **+ Ajouter un sujet**, sélectionnez **Sujet**\>**Créer à partir d’une description avec Copilot**.
 
-1. Dans la boîte de dialogue **Créer à partir d’une description avec Copilot**, nommez le nouveau sujet `Ask about expenses contact`et saisissez le texte suivant pour indiquer à Copilot ce que le sujet doit faire :
+1. Dans la boîte de dialogue **Créer à partir d’une description avec Copilot**, nommez la nouvelle rubrique `Ask about expenses contact` et saisissez le texte suivant pour indiquer à Copilot ce que la rubrique doit faire :
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
@@ -129,6 +130,8 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
     ![Capture d’écran de la rubrique générée par Copilot](media/copilot-studio-topic.png)
 
     La nouvelle rubrique doit être déclenchée par des expressions qui demandent un contact pour les dépenses et répondre avec un message indiquant à l’utilisateur ou l’utilisatrice d’envoyer un e-mail à l’adresse appropriée.
+
+    > **Important** : si les nœuds de la rubrique sont différents de l’image ci-dessus, supprimez la rubrique et créez à nouveau la rubrique.
 
 1. Utilisez le bouton **Enregistrer** (en haut à droite) pour enregistrer la nouvelle rubrique dans votre assistant.
 
@@ -154,7 +157,7 @@ Vous pouvez ajouter des rubriques pour toutes les entrées que les utilisateurs 
 
     ![Capture d’écran des sources de connaissances disponibles dans Copilot Studio.](media/knowledge-sources.png)
 
-1. Dans la section **Charger des fichiers**, chargez le document de politique de dépenses que vous avez téléchargé précédemment et ajoutez-le aux connaissances de votre agent.
+1. Dans la section **Charger un fichier**, chargez le document de politique de dépenses que vous avez téléchargé précédemment et ajoutez-le aux connaissances de votre agent.
 
     > **Note** : après le chargement du fichier, vous devez attendre 10 minutes (ou plus) que son indexation soit effectuée. C’est le moment idéal pour faire une pause café pendant que vous examinez le [document de politique des dépenses](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) sur `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` dans autre onglet de navigateur !
 
@@ -182,7 +185,7 @@ Maintenant que vous disposez d’un agent opérationnel, vous pouvez le publier 
 
 1. Masquez le volet **Tester votre agent**. Ensuite, en haut de la page, sélectionnez l’onglet **Canaux** et passez en revue les canaux sur lesquels vous pouvez déployer votre agent. Les canaux disponibles dépendent des paramètres d’authentification de votre agent.
 1. Sélectionnez **Paramètres** en haut de la page.
-1. Dans le volet **Paramètres**, sur la page **Sécurité**, sélectionnez **Authentification**. Sélectionnez ensuite l’option **Pas d’authentification** et **Enregistrez** les modifications de la configuration (en confirmant que vous souhaitez activer l’accès à l’agent pour tout le monde).
+1. Dans le volet **Paramètres**, sur la page **Sécurité**, sélectionnez **Authentification**. Sélectionnez ensuite l’option **Pas d’authentification** et **Enregistrez** les modifications de la configuration, puis **Enregistrez** une nouvelle fois (en confirmant que vous souhaitez activer l’accès à l’agent pour tout le monde).
 1. Fermez le volet **Paramètres**. Ensuite, affichez la page **Canaux**.
 1. sélectionnez **Publier** en haut de la page. Ensuite, sur la page **Publier**, sélectionnez **Publier**. La publication prend environ une minute.
 1. Une fois votre agent publié, vérifiez le **Statut de la publication** sur la page **Canaux**.

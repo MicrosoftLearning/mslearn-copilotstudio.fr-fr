@@ -8,11 +8,13 @@ lab:
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans cet exercice, vous allez :
 
 - Gérer les rubriques existantes
 - Créer et modifier des rubriques à l’aide du langage naturel
 - Créer une rubrique manuellement à l’aide d’expressions déclencheuses
+
+Cet exercice devrait prendre environ **30** minutes.
 
 ## Contenu du didacticiel
 
@@ -20,7 +22,6 @@ Dans ce labo, vous allez :
 
 ## Étapes de labo de haut niveau
 
-- Supprimer des exemples de rubriques
 - Désactiver des rubriques
 - Créer et modifier des rubriques en utilisant le langage naturel
 - Créer une rubrique et ajouter des expressions déclencheuses
@@ -87,7 +88,7 @@ Dans cet exercice, vous allez créer des rubriques dans un assistant et ajouter 
 
 1. Dans le volet **Modifier avec Copilot**, dans le champ **Que voulez-vous faire ?**, saisissez le texte suivant :
 
-    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. Sélectionnez **Mettre à jour**.
 
@@ -95,7 +96,7 @@ Dans cet exercice, vous allez créer des rubriques dans un assistant et ajouter 
 
     ![Capture d’écran du message mis à jour pour inclure la variable Name.](../media/message-updated-name-variable.png)
 
-    > **Note** : le message doit être mis à jour pour inclure la variable *Name* du nœud précédent et doit ressembler à la capture d’écran ci-dessus.
+    > **Note** : le message doit être mis à jour pour inclure la variable *Name* du nœud précédent et doit ressembler à la capture d’écran ci-dessus. Si la modification avec Copilot n’a pas mis à jour correctement le nœud question, sélectionnez Annuler et réessayez avec une autre invite.
 
 1. Cliquez sur **Enregistrer**.
 

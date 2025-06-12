@@ -1,18 +1,20 @@
 ---
 lab:
   title: Créer un agent initial
-  module: Build an initial agent with Microsoft Copilot Studio
+  module: Manage topics in Microsoft Copilot Studio
 ---
 
 # Créer un agent initial
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans cet exercice, vous allez :
 
-- Créer et nommer un assistant
+- Créer et nommer un agent
 - Ajouter une description de ce que l’assistant doit faire
 - Configurer les réponses de l’IA générative
+
+Cet exercice devrait prendre environ **15** minutes.
 
 ## Contenu du didacticiel
 
@@ -61,7 +63,7 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 1. Sélectionnez **Bookings** sous **Solution**.
 
-1. Entrez `labcopilot` pour **Nom du schéma**.
+1. Entrez `labagent` pour **Nom du schéma**.
 
     ![Paramètres avancés dans le portail Copilot Studio.](../media/copilot-studio-advanced-settings.png)
 
@@ -77,13 +79,19 @@ Laissez cette fenêtre ouverte.
 
 Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et ajouter des connaissances que l’agent utilisera pour répondre aux questions à l’aide de l’IA générative.
 
-### Tâche 2.1 – Activer les réponses de l’IA générative
+### Tâche 2.1 - Désactiver l’orchestration générative
+
+1. Sous l’onglet **Vue d’ensemble**, vérifiez que l’option **Utiliser l’IA générative pour déterminer la meilleure façon de répondre aux utilisateurs et aux événements.** est définie sur **Désactivé** dans la section **Détails**.
+
+    ![Orchestration générative désactivée](../media/settings-generative-ai-1.png)
+
+### Tâche 2.2 – Activer les réponses de l’IA générative
 
 1. Dans l’onglet **Vue d’ensemble**, assurez-vous que **Autoriser l’IA à utiliser ses propres connaissances générales** est défini sur **Activé**dans la section **Connaissances**.
 
     ![Connaissances activées dans le portail Copilot Studio.](../media/knowledge-enabled.png)
 
-### Tâche 2.2 – Ajouter une source de connaissances
+### Tâche 2.3 – Ajouter une source de connaissances
 
 1. Sélectionnez l’onglet **Connaissances**.
 

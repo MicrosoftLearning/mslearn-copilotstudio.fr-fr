@@ -8,9 +8,11 @@ lab:
 
 ## Scénario
 
-Dans ce labo, vous allez :
+Dans cet exercice, vous allez :
 
-- Créer des actions d’agent
+- Déployer l’agent sur un canal Microsoft Teams
+
+Cet exercice devrait prendre environ **10** minutes.
 
 ## Contenu du didacticiel
 
@@ -58,10 +60,6 @@ Maintenant que votre agent est publié, vous pouvez le mettre à la disposition 
 
 1. Sélectionnez **Copier le lien**.
 
-1. Sélectionnez **Présenter à mes collègues et aux utilisateurs partagés**.
-
-1. Sélectionnez votre utilisateur.
-
 1. Sélectionnez la flèche arrière en haut à gauche du volet.
 
 1. Sélectionnez **Afficher l’agent dans Teams**
@@ -73,6 +71,10 @@ Maintenant que votre agent est publié, vous pouvez le mettre à la disposition 
 1. Sélectionnez **Ajouter**.
 
     ![Capture d’écran de la boîte de dialogue d’ajout de l’application à Teams.](../media/teams-add-app.png)
+
+1. Dans le rail de gauche dans Microsoft Teams, sélectionnez les **points de suspension (...)** pour afficher d’autres applications et recherchez **Immobilier**.
+
+1. Sélectionnez le **Service de réservation immobilière**.
 
 1. Testez l’assistant.
 
