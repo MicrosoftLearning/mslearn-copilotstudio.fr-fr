@@ -37,9 +37,7 @@ Les variables sont accessibles par d’autres rubriques.
 
 ### Tâche 1.1 : configurer l’étendue des variables
 
-1. Accédez au portail Microsoft Studio `https://copilotstudio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
-
-1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour fermer le panneau de test, le cas échéant.
+1. Accédez au portail `https://copilotstudio.microsoft.com` Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
 1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
@@ -59,7 +57,7 @@ Les variables sont accessibles par d’autres rubriques.
 
 ## Exercice 2 : créer des rubriques manuellement
 
-Le flux conversationnel d’une rubrique peut être créé manuellement en ajoutant des nœuds.
+Le flux de conversation d’un sujet peut être créé manuellement en ajoutant des nœuds.
 
 ### Tâche 2.1 : ajouter un nœud de message
 
@@ -79,7 +77,7 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
 ### Tâche 2.2 : ajouter un nœud de gestion des rubriques
 
-1. Sélectionnez l’icône **+** sous le nœud **Message**, **Gestion des rubriques**, puis **Accéder à une autre rubrique**, puis **Détails du client**.
+1. Sélectionnez l’icône **+** sous le nœud **Message**, puis sélectionnez **Gestion des sujets ** > **Accéder à un autre sujet ** > **Détails du client**.
 
     ![Capture d’écran illustrant l’ajout d’un nœud de gestion des rubriques.](../media/topic-management-node.png)
 
@@ -137,7 +135,7 @@ Le flux conversationnel d’une rubrique peut être créé manuellement en ajout
 
     ![Capture d’écran illustrant les options du panneau de test.](../media/test-pane-options.png)
 
-1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
+1. Sélectionnez l’icône **Commencer une nouvelle conversation** (actualiser) en haut du panneau de test.
 
 1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 

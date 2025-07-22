@@ -40,8 +40,6 @@ Dans cet exercice, vous allez supprimer les rubriques d’un assistant.
 
 1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
-1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour fermer le panneau de test, le cas échéant.
-
 1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
     ![Assistants dans le portail Copilot Studio.](../media/copilot-studio-copilots.png)
@@ -49,8 +47,6 @@ Dans cet exercice, vous allez supprimer les rubriques d’un assistant.
 1. Sélectionnez l’assistant que vous avez créé dans le labo précédent.
 
 1. Sélectionnez l’onglet **Rubriques**.
-
-    ![Onglet Rubriques dans le portail Copilot Studio.](../media/topics-tab.png)
 
 1. Cliquez sur **Activé** pour passer sur **Désactivé** pour la rubrique **Redémarrage**.
 
@@ -104,7 +100,7 @@ Dans cet exercice, vous allez créer des rubriques dans un assistant et ajouter 
 
 En plus de mettre à jour de nouveaux nœuds, vous pouvez utiliser Copilot pour en ajouter de nouveaux.
 
-1. Assurez-vous qu’aucun nœud n’est sélectionné en cliquant dans l’espace vide autour des nœuds.
+1. Assurez-vous qu’aucun nœud n’est sélectionné en sélectionnant l’espace vide dans le canevas de création.
 
 1. Dans le volet **Modifier avec Copilot**, dans le champ **Que voulez-vous faire ?**, saisissez le texte suivant :
 
@@ -155,9 +151,9 @@ En plus de mettre à jour de nouveaux nœuds, vous pouvez utiliser Copilot pour 
     }
     ```
 
-1. L’ouverture des propriétés de la carte adaptative entraîne la fermeture du volet **Modifier avec Copilot**. Vous devez donc sélectionner l’icône **Copilot** pour le rouvrir.
+1. Sélectionnez l’icône **Copilot** pour rouvrir le volet **Modifier Copilot**.
 
-1. Assurez-vous qu’aucun nœud n’est sélectionné en cliquant dans l’espace vide autour des nœuds.
+1. Assurez-vous qu’aucun nœud n’est sélectionné en sélectionnant l’espace vide dans le canevas de création.
 
 1. Dans le champ **Que voulez-vous faire ?**, saisissez le texte suivant :
 
@@ -165,17 +161,17 @@ En plus de mettre à jour de nouveaux nœuds, vous pouvez utiliser Copilot pour 
 
 1. Sélectionnez **Mettre à jour**.
 
-1. Un nouveau nœud Question est ajouté à la fin de la rubrique avec des options que l’utilisateur peut sélectionner.
+Un nouveau nœud Question est ajouté à la fin de la rubrique avec des options que l’utilisateur peut sélectionner.
 
-    ![Capture d’écran du nouveau nœud Question avec les options oui et non.](../media/new-question-node.png)
+    ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
 
 1. Cliquez sur **Enregistrer**.
 
 ### Tâche 2.4 – Tester la rubrique
 
-1. Sélectionnez le bouton **Test** en haut à droite de l’écran pour ouvrir le panneau de test, s’il est fermé.
+1. Si le panneau **Tester votre agent** est fermé, sélectionnez le bouton **Tester** en haut à droite de l’écran.
 
-1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
+1. Sélectionnez l’icône **Commencer une nouvelle conversation** (actualiser) en haut du panneau de test.
 
 1. Dans la zone de texte **Poser une question ou décrire ce dont vous avez besoin**, entrez **`Customer information`**.
 
@@ -213,7 +209,7 @@ Les rubriques peuvent être créées manuellement avec des expressions déclench
 
 ### Tâche 3.2 – Ajouter des expressions déclencheuses
 
-1. Sélectionnez **Modifier** sous **Phrases** dans **Déclencheur**.
+1. Sélectionnez **Modifier** sous **Utilisateur indique une expression** dans le **Déclencheur**.
 
     ![Capture d’écran du volet des expressions déclencheuses de la rubrique.](../media/topic-trigger-phrases.png)
 

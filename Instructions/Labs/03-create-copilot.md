@@ -39,8 +39,6 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 1. Dans un nouvel onglet, accédez au portail de création Microsoft Copilot Studio `https://copilotstudio.microsoft.com` et connectez-vous avec vos informations d’identification Microsoft 365 si nécessaire.
 
-1. Si cela vous est proposé, sélectionnez **Démarrer l’essai gratuit**.
-
 1. Assurez-vous que vous êtes dans l’environnement approprié.
 
 ### Tâche 1.2 : créer un assistant
@@ -71,7 +69,7 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 1. Sélectionnez **Créer** en haut à droite de l’écran.
 
-1. Dans le volet **Tester votre agent** à droite, entrez **`How do I make a booking?`**. Affichez la réponse.
+1. Dans le volet **Test de droite de votre agent**, entrez **`How do I make a booking?`** et affichez la réponse.
 
 Laissez cette fenêtre ouverte.
 
@@ -81,17 +79,11 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et aj
 
 ### Tâche 2.1 - Désactiver l’orchestration générative
 
-1. Sous l’onglet **Vue d’ensemble**, vérifiez que l’option **Utiliser l’IA générative pour déterminer la meilleure façon de répondre aux utilisateurs et aux événements.** est définie sur **Désactivé** dans la section **Détails**.
+1. Sous l’onglet **Vue d’ensemble**, vérifiez que l’option **Utiliser l’IA générative pour déterminer la meilleure façon de répondre aux utilisateurs et aux événements.** est définie sur **Désactivé** dans la section **Détails**. Cela désactive l’orchestration à des fins de ce laboratoire.
 
     ![Orchestration générative désactivée](../media/settings-generative-ai-1.png)
 
-### Tâche 2.2 – Activer les réponses de l’IA générative
-
-1. Dans l’onglet **Vue d’ensemble**, assurez-vous que **Autoriser l’IA à utiliser ses propres connaissances générales** est défini sur **Activé**dans la section **Connaissances**.
-
-    ![Connaissances activées dans le portail Copilot Studio.](../media/knowledge-enabled.png)
-
-### Tâche 2.3 – Ajouter une source de connaissances
+### Tâche 2.2 – Ajouter une source de connaissances
 
 1. Sélectionnez l’onglet **Connaissances**.
 
@@ -121,6 +113,6 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et aj
 
     ![Capture d’écran des options du panneau de test.](../media/copilot-test-pane-start-new-conversation.png)
 
-1. Dans la zone de texte **Poser une question ou décrire ce dont vous avez besoin**, entrez **`How do I boost real estate promotion?`**.
+1. Dans la zone de texte **Poser une question ou décrire ce dont vous avez besoin**, entrez **`How do I boost real estate promotion?`**. Affichez votre réponse. 
 
     ![Capture d’écran des résultats du volet Test.](../media/test-pane-results.png)
