@@ -113,13 +113,14 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
 1. Revenez à la page **Rubriques** et affichez les rubriques **Système**. Notez qu’elles incluent des rubriques pour les événements courants dans une conversation. Prenez particulièrement en compte les rubriques système suivantes :
     - **Boosting conversationnel** : cette rubrique est déclenchée lorsque l’utilisateur ou l’utilisatrice envoie un message dans lequel l’agent n’identifie aucune rubrique (l’*intention* de l’utilisateur ou l’utilisatrice est inconnue). La rubrique tente alors de répondre au message de l’utilisateur ou l’utilisatrice à l’aide de l’IA générative.
     - **De base** : cette rubrique est « de secours » qui répond lorsque l’intention est inconnue et qu’il est impossible de générer une réponse d’IA conversationnelle appropriée. La rubrique de base inclut la logique permettant à l’utilisateur ou l’utilisatrice de réessayer jusqu’à trois fois avant de mettre cordialement fin à la conversation, souvent en passant à un opérateur humain.
-1. Revenez à la page **Sujets**, puis dans le menu **+ Ajouter un sujet**, sélectionnez **Sujet**\>**Créer à partir d’une description avec Copilot**.
+1. Revenez à la page **sujets**, puis dans le menu **+ Ajouter un sujet**, sélectionnez **sujet** \> **Ajouter à partir d’une description avec Copilot**.
 
-1. Dans la boîte de dialogue **Créer à partir d’une description avec Copilot**, nommez la nouvelle rubrique `Ask about expenses contact` et saisissez le texte suivant pour indiquer à Copilot ce que la rubrique doit faire :
+1. Dans la boîte de dialogue **Ajouter à partir d’une description avec Copilot**, nommez la nouvelle sujet `Ask about expenses contact` et entrez le texte suivant pour indiquer à Copilot Studio ce que le sujet doit faire :
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
     ```
+    > **Remarque** : Les résultats de Copilot peuvent varier, donc vous devrez peut-être jouer avec cette invite pour vos résultats attendus. 
 
 1. Sélectionnez **Créer**.
 

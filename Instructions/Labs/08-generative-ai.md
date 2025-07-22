@@ -31,7 +31,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 ## Exercice 1 - Configurer l’IA générative
 
-### Tâche 1.1 – Activer l’IA générative
+### Tâche 1.1 – Activer l’orchestration
 
 1. S’il n’est pas encore ouvert, accédez au portail Microsoft Copilot Studio `https://copilotstudio.microsoft.com` et vérifiez que vous êtes dans l’environnement approprié.
 
@@ -41,17 +41,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 1. Cliquez sur le bouton **Paramètres** en haut à droite de l’écran.
 
-1. Sélectionnez l’onglet **IA générative**.
-
-1. Sélectionnez **Génératif** sous **Comment votre assistant doit-il interagir avec les personnes ?**.
-
-1. Sélectionnez **Moyen - Plus équilibré** pour **Quel niveau de modération de contenu souhaitez-vous appliquer ?**.
-
-1. Cliquez sur **Enregistrer**.
-
-    ![Volet IA générative dans les paramètres de Copilot Studio](../media/settings-generative-ai-2.png)
-
-1. Fermez le menu **Paramètres** en sélectionnant l’icône **X** en haut à droite de Copilot Studio.
+1. Dans la section **Détails**, activez l’option **Orchestration**.
 
 ### Tâche 1.2 – Utiliser des réponses génératives dans la rubrique Boosting conversationnel
 
@@ -63,19 +53,9 @@ Cet exercice devrait prendre environ **30** minutes.
 
 1. Examinez le nœud **Créer des réponses génératives**.
 
-### Tâche 1.3 – Activer les connaissances
+### Tâche 1.3 – Configurer l’authentification
 
-1. Sélectionnez l’onglet **Vue d’ensemble**.
-
-1. Vérifiez que les connaissances générales sont **activées**.
-
-    ![Capture d’écran des connaissances générales activées.](../media/general-knowledge-2.png)
-
-1. Vous devez voir le site web public ajouté en tant que connaissances dans un labo antérieur.
-
-### Tâche 1.4 - Configurer l’authentification
-
-1. Sélectionnez **Paramètres** en haut à droite de l’écran.
+1. Sélectionnez les points de suspension (**...**) > **Paramètres** en haut à droite de l’écran.
 
 1. Sélectionnez l’onglet **Sécurité**.
 
@@ -149,9 +129,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 1. Désélectionner **Autoriser l’IA à utiliser ses propres connaissances générales**.
 
-1. Cochez la case **Personnaliser** sous **Quel niveau de modération du contenu souhaitez-vous appliquer ?**, puis sélectionnez **Moyen**.
-
-    ![Capture d’écran de la configuration des réponses génératives.](../media/fallback-topic-answers-knowledge-2.png)
+1. Cochez la case **Personnaliser** sous **Niveau de modération du contenu**, puis sélectionnez **Moyen**.
 
 1. Cliquez sur **Enregistrer**.
 

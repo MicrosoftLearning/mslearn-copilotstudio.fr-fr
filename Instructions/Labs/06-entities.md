@@ -39,7 +39,7 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
-1. Sélectionnez le **service de réservation immobilière** que vous avez créé dans le labo précédent.
+1. Sélectionnez l’agent **Service de réservation immobilière** que vous avez créé dans le laboratoire précédent.
 
 1. Sélectionnez **Paramètres** en haut à droite de l’écran.
 
@@ -93,13 +93,13 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Cliquez sur **Fermer**.
 
+1. Sélectionnez l’icône **X** en haut à droite pour fermer les paramètres et revenir à votre assistant.
+
 ## Exercice 2 : utiliser des entités pour améliorer l’assistant
 
 Utilisez des entités dans le flux conversationnel pour améliorer l’assistant.
 
 ### Tâche 2.1 - Utiliser des entités
-
-1. Sélectionnez l’icône **X** en haut à droite pour fermer les paramètres et revenir à votre assistant.
 
 1. Sélectionnez l’onglet **Rubriques**.
 
