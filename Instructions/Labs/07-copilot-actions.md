@@ -4,24 +4,24 @@ lab:
   module: Enhance Microsoft Copilot Studio agents
 ---
 
-# Créer des actions d’agent
+# Créer des flux d’agent
 
 ## Scénario
 
 Dans cet exercice, vous allez :
 
-- Créer des actions d’agent à l’aide de flux cloud Power Automate
+- Créer un flux d’agent
 
 Cet exercice devrait prendre environ **30** minutes.
 
 ## Contenu du didacticiel
 
-- Comment ajouter l’utilisation de Power Automate pour accéder aux données dans Microsoft Dataverse
+- Comment créer un outil pour exécuter un flux d’agent dans Copilot Studio
 
 ## Étapes de labo de haut niveau
 
-- Créer un flux de cloud Power Automate pour récupérer des données Dataverse avec une action d’assistant
-- Créer un flux de cloud Power Automate pour créer des données Dataverse avec une action d’assistant
+- Créer un flux d’agent pour récupérer des données Dataverse avec une action d’agent
+- Créer un flux d’agent pour créer des données Dataverse avec une action d’agent
   
 ## Prérequis
 
@@ -31,9 +31,9 @@ Cet exercice devrait prendre environ **30** minutes.
 
 ## Exercice 1 : créer une action d’assistant pour récupérer des données à partir de Dataverse
 
-Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse à l’aide de flux de cloud Power Automate.
+Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse à l’aide des flux d’agent.
 
-### Tâche 1.1 : créer un flux Power Automate pour récupérer une propriété
+### Tâche 1.1 – Créer un flux d’agent pour récupérer une propriété
 
 1. Accédez au portail `https://copilotstudio.microsoft.com` Microsoft Copilot Studio et vérifiez que vous êtes dans l’environnement approprié.
 
@@ -41,17 +41,13 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Sélectionnez le **service de réservation immobilière** que vous avez créé dans le labo précédent.
 
-1. Sélectionnez l’onglet **Actions**.
+1. Sélectionnez l’onglet **Outils**.
 
-1. Sélectionnez **+ Ajouter une action**.
+1. Sélectionnez **+ Ajouter un outil**.
 
-1. Sélectionnez les **points de suspension (...)**, puis sélectionnez **Flux**.
+1. Sélectionnez **+ Nouvel outil**.
 
-    ![Capture d’écran de l’étape 1 d’ajout d’une action.](../media/add-action-step-1.png)
-
-1. Sélectionnez **Nouvelle action**, puis sélectionnez **Nouveau flux Power Automate**.
-
-1. Sélectionnez **Exécuter un flux à partir de Copilot** en haut à gauche de l’écran et entrez `Get Property` pour le nom du flux.
+1. Sélectionnez **Flux d’agent**.
 
 1. Sélectionnez l’étape de déclenchement **Quand un agent appelle le flux**, puis sélectionnez **+ Ajouter une entrée**.
 
@@ -69,7 +65,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Sélectionnez l’action **Répertorier des lignes**.
 
-1. Si vous y êtes invité, sélectionnez **OAuth**, puis **Se connecter**.
+1. Si vous êtes invité à vous authentifier, entrez `Lab connection` comme **Nom de connexion**, sélectionnez **OAuth** pour ** Type d’authentification, puis sélectionnez **Se connecter**.
 
     > **Note :** si vous voyez une erreur « **Échec de création d’une connexion OAuth** », vous devrez peut-être autoriser les fenêtres contextuelles dans votre navigateur.
 
@@ -87,7 +83,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
     > **Important :** assurez-vous qu’il y a un espace entre eq et Chambres.
 
-1. Dans le volet principal de Power Automate, sélectionnez l’action **Répondre à Copilot**, puis sélectionnez **+ Ajouter une sortie**.
+1. Sélectionnez l’action **Répondre à Copilot** dans le canevas de création, puis sélectionnez **+ Ajouter une sortie**.
 
 1. Sélectionnez **Texte**.
 
@@ -100,8 +96,6 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
     ```
     first(outputs('List_rows')?['body/value'])['contoso_realestatepropertyid']
     ```
-
-    ![Capture d’écran illustrant la configuration de l’action Configurer une réponse.](../media/create-flow-step5.png)
 
 1. Sélectionnez **Ajouter**.
 
@@ -118,6 +112,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
     ```
     first(outputs('List_rows')?['body/value'])['contoso_propertyname']
     ```
+    ![Capture d’écran illustrant la configuration de l’action Configurer une réponse.](../media/create-flow-step5.png)
 
 1. Sélectionnez **Ajouter**.
 
@@ -129,41 +124,28 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Sélectionnez **Enregistrer le brouillon** en haut à droite de la page.
 
-1. Attendez que l’enregistrement soit terminé, sélectionnez **Publier**, puis fermez l’onglet Power Automate une fois la publication terminée.
+1. Attendez la fin de l’enregistrement, puis sélectionnez **Publier**. Dans le **Flux de votre agent publié avec succès !** fenêtre contextuelle, sélectionnez **Retourner à l’agent**.
 
-### Tâche 1.2 : ajouter une action d’assistant pour récupérer une propriété
+1. Sélectionnez l’onglet **Vue d’ensemble**.
 
-1. Sélectionnez **Actualiser** dans la boîte de dialogue Copilot Studio pour afficher le nouveau flux.
+1. Sélectionnez **Modifier** dans la section **Détails**. 
 
-    ![Capture d’écran de l’étape 1 d’ajout d’une action de flux.](../media/add-action-flow-step-1.png)
+1. Mettez à jour le **Nom du flux** vers `Get Property`
 
-1. Sélectionnez le flux **Obtenir la propriété**.
+1. Cliquez sur **Enregistrer**
 
-1. Développez **Entrées et sorties**
+1. Sélectionnez **Agents**, puis votre agent **Service de réservation immobilière**. 
 
-    ![Capture d’écran de l’ajout de sorties à une action de flux.](../media/add-action-flow-step-1a.png)
+1. Sélectionnez **Outils** et consultez le flux Obtenir une propriété que vous avez créé.
 
-1. Sélectionnez **+ Ajouter** pour les **Sorties**.
 
-1. Sélectionnez **PropertyId**.
-
-1. Sélectionnez **+ Ajouter** pour les **Sorties**.
-
-1. Sélectionnez **PropertyName**.
-
-    ![Capture d’écran des sorties ajoutées à une action de flux.](../media/add-action-flow-step-1b.png)
-
-1. Cliquez sur **Ajouter une action**.
-
-### Tâche 1.3 : ajouter l’action d’assistant Obtenir la propriété à la rubrique
+### Tâche 1.2 – Ajouter l’action d’assistant Obtenir la propriété à la sujet
 
 1. Sélectionnez l’onglet **Rubriques**.
 
 1. Sélectionnez la rubrique **Réserver une visite immobilière**.
 
-1. Sélectionnez l’icône **+** sous le nœud **question Combien de chambres souhaitez-vous ?**, sélectionnez **Ajouter une action**, puis sélectionnez le flux **Obtenir la propriété**.
-
-    ![Capture d’écran de l’étape 2 d’ajout d’une action de flux.](../media/add-action-flow-step-2.png)
+1. Sélectionnez l’icône **+** sous le nœud **Combien de chambres avez-vous besoin ?**, sélectionnez **Ajouter un outil**, puis sélectionnez le flux **Obtenir la propriété**.
 
 1. Sélectionnez la **variable NumberofBedrooms** pour le paramètre d’entrée **Chambres**.
 
@@ -183,17 +165,27 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 ## Exercice 2 : créer une action d’assistant pour créer des données dans Dataverse
 
-Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l’aide de flux cloud Power Automate.
+Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l’aide de flux d’agent.
 
-### Tâche 2.1 - Créer un flux Power Automate pour effectuer une réservation
+### Tâche 2.1 – Créer un flux d’agent pour effectuer une réservation
 
-1. Sélectionnez l’onglet **Actions** dans **Service de réservation immobilière**.
+1. Sélectionnez l’onglet **outils** dans **Service de réservation immobilière**.
 
-1. Sélectionnez **+ Ajouter une action**.
+1. Sélectionnez **+ Ajouter un outil**.
 
-1. Sélectionnez **+ Nouvelle action**, puis **Nouveau flux Power Automate**.
+1. Select **+ Nouvel outil**, puis **Flux d’agent** .
 
-1. Sélectionnez **Exécuter un flux à partir de Copilot** en haut à gauche de l’écran et entrez `Create Booking Request` pour le nom du flux.
+1. Sélectionnez **Enregistrer le brouillon** et attendez que le flux de l’agent soit enregistré.
+
+1. Sélectionnez l’onglet **Vue d’ensemble**
+
+1. Sélectionnez **Modifier** dans la section **Détails**. 
+
+1. Renommer le flux `Create Booking Request`
+
+1. Cliquez sur **Enregistrer**.
+
+1. Sélectionnez l’onglet **Concepteur**.
 
 1. Sélectionnez l’étape de déclenchement **Quand un agent appelle le flux**, puis sélectionnez **+ Ajouter une entrée**.
 
@@ -243,15 +235,21 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez **Enregistrer le brouillon** en haut à droite de la fenêtre.
 
-1. Attendez la fin de l’enregistrement, sélectionnez **Publier**, puis fermez l’onglet Power Automate.
+1. Attendez la fin de l’enregistrement, puis sélectionnez **Publier**.
 
-### Tâche 2.2 : ajouter une action d’assistant pour créer une demande de réservation
+1. Sélectionnez l’onglet **Vue d’ensemble**.
 
-1. Sélectionnez **Actualiser** dans la boîte de dialogue Copilot Studio pour afficher le nouveau flux.
+1. Dans la section Détails, sélectionnez **Modifier**.
 
-1. Sélectionnez le flux **Créer une demande de réservation**.
+1. Renommer le flux d’agent `Create Booking Request`
 
-1. Cliquez sur **Ajouter une action**.
+1. Cliquez sur **Enregistrer**.
+
+### Tâche 2.2 – Valider vos outils
+
+1. Sélectionnez **Agents** et ouvrez votre agent **Service de réservation immobilière**.
+
+1. Sélectionnez l’onglet **Outils** et vérifiez que les deux flux de votre agent se trouvent dans la liste. Si ce n’est pas le cas, sélectionnez **+Ajouter un **Flux** d’outils** >  > et sélectionnez le flux d’agent manquant. Sélectionnez **Ajouter à l’agent**.
 
 ### Tâche 2.3 : ajouter l’action d’assistant Créer une demande de réservation à la rubrique
 
@@ -259,7 +257,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez la rubrique **Réserver une visite immobilière**.
 
-1. Sélectionnez l’icône **+** sous le nœud **À quelle date et à quelle heure souhaitez-vous visiter le bien ?**, sélectionnez **Ajouter une action**, puis sélectionnez le flux **Créer une demande de réservation**.
+1. Sélectionnez l’icône **+** sous le nœud **À quelle date et à quelle heure souhaitez-vous visiter le bien ?**, sélectionnez **Ajouter un outil**, puis sélectionnez le flux **Créer une demande de réservation**.
 
 1. Sélectionnez la variable **PropertyId** pour le paramètre d’entrée **PropertyId**.
 
@@ -285,7 +283,7 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Le cas échéant, activez **Suivi des rubriques**.
 
-1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
+1. Sélectionnez l’icône **Commencer une nouvelle conversation** (actualiser) en haut du panneau de test.
 
 1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 
@@ -322,8 +320,10 @@ Microsoft Copilot Studio peut créer des données dans Microsoft Dataverse à l�
 
 1. Vérifiez que vous êtes dans l’environnement approprié.
 
+1. Cliquez sur **Applications** dans la navigation de gauche.
+
 1. Sélectionnez **Lire** dans l’application pilotée par modèle **Gestion des propriétés immobilières**.
 
-1. Dans le volet de navigation de gauche, sélectionnez **Demandes de requêtes**.
+1. Dans le volet de navigation de gauche, sélectionnez **Demandes de requêtes**. Affichez la demande de réservation que votre agent vient de créer pour vous.
 
     ![Capture d’écran du portail Maker montrant les données de demande de réservation.](../media/booking-request-row.png)
