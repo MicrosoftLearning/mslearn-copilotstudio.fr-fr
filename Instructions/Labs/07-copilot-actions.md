@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Créer des actions d’agent
+  title: Créer des flux d’agent
   module: Enhance Microsoft Copilot Studio agents
 ---
 
@@ -20,8 +20,8 @@ Cet exercice devrait prendre environ **30** minutes.
 
 ## Étapes de labo de haut niveau
 
-- Créer un flux d’agent pour récupérer des données Dataverse avec une action d’agent
-- Créer un flux d’agent pour créer des données Dataverse avec une action d’agent
+- Créer un flux d’agent pour récupérer des données Dataverse
+- Créer un flux d’agent pour créer des données Dataverse
   
 ## Prérequis
 
@@ -29,7 +29,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 ## Procédure détaillée
 
-## Exercice 1 : créer une action d’assistant pour récupérer des données à partir de Dataverse
+## Exercice 1 : créer un outil pour récupérer des données à partir de Dataverse
 
 Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse à l’aide des flux d’agent.
 
@@ -139,7 +139,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 1. Sélectionnez **Outils** et consultez le flux Obtenir une propriété que vous avez créé.
 
 
-### Tâche 1.2 – Ajouter l’action d’assistant Obtenir la propriété à la sujet
+### Tâche 1.2 : ajouter l’outil Obtenir la propriété au sujet
 
 1. Sélectionnez l’onglet **Rubriques**.
 
@@ -163,7 +163,7 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Cliquez sur **Enregistrer**.
 
-## Exercice 2 : créer une action d’assistant pour créer des données dans Dataverse
+## Exercice 2 : créer un outil pour créer des données dans Dataverse
 
 Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l’aide de flux d’agent.
 
@@ -251,7 +251,7 @@ Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez l’onglet **Outils** et vérifiez que les deux flux de votre agent se trouvent dans la liste. Si ce n’est pas le cas, sélectionnez **+Ajouter un **Flux** d’outils** >  > et sélectionnez le flux d’agent manquant. Sélectionnez **Ajouter à l’agent**.
 
-### Tâche 2.3 : ajouter l’action d’assistant Créer une demande de réservation à la rubrique
+### Tâche 2.3 : ajouter l’outil d’assistant Créer une demande de réservation à la rubrique
 
 1. Sélectionnez l’onglet **Rubriques**.
 
@@ -271,7 +271,7 @@ Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez **Publier**, puis **Publier** à nouveau.
 
-## Exercice 3 : tester les actions d’assistant
+## Exercice 3 : tester votre agent
 
 ### Tâche 3.1 - Effectuer une demande de réservation
 
