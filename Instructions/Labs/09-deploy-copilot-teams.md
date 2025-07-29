@@ -68,7 +68,7 @@ Maintenant que votre agent est publié, vous pouvez le mettre à la disposition 
 
     ![Capture d’écran de la boîte de dialogue d’ajout de l’application à Teams.](../media/teams-add-app.png)
 
-1. sélectionnez **Ouvrir**. Je souhaite 
+1. Sélectionnez **Ouvrir**.
 
 1. Testez l’assistant.
 
