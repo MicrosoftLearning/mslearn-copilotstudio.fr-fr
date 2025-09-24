@@ -118,7 +118,7 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
 1. Dans la boîte de dialogue **Ajouter à partir d’une description avec Copilot**, nommez la nouvelle sujet `Ask about expenses contact` et entrez le texte suivant pour indiquer à Copilot Studio ce que le sujet doit faire :
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
     ```
     > **Remarque** : Les résultats de Copilot peuvent varier, donc vous devrez peut-être jouer avec cette invite pour vos résultats attendus. 
 
