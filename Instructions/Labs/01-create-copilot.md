@@ -16,7 +16,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 Commençons par utiliser Copilot Studio pour créer un agent. L’assistant aura initialement des capacités très limitées, que vous étendrez plus tard dans l’exercice.
 
-1. Dans votre navigateur web, accédez à [Copilot Studio](https://copilotstudio.microsoft.com/) à l’adresse `https://copilotstudio.microsoft.com/` et connectez-vous avec votre compte professionnel ou scolaire, si nécessaire. Ignorez les messages de bienvenue.
+1. Dans votre navigateur web, accédez à **Copilot Studio** à l’adresse `https://copilotstudio.microsoft.com/` et connectez-vous avec votre compte professionnel ou scolaire, si nécessaire. Ignorez les messages de bienvenue.
 
     > **Note :** la première fois que vous ouvrez Copilot Studio, il peut afficher une interface de conversation pour créer votre premier agent. Dans ce cas, cliquez sur le menu **...** en haut à droite (en regard du bouton **Créer**), puis sélectionnez **Annuler la création de l’agent**, puis quittez l’interface de conversation et affichez la page d’accueil de Copilot Studio.
 
