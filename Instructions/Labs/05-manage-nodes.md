@@ -41,13 +41,13 @@ Les variables sont accessibles par d’autres rubriques.
 
 1. Sélectionnez **Assistants** dans le volet de navigation de gauche.
 
-1. Sélectionnez l’assistant que vous avez créé dans le labo précédent.
+1. Sélectionnez l’assistant de réservation immobilière que vous avez créé dans le labo précédent.
 
 1. Sélectionnez l’onglet **Rubriques**.
 
 1. Sélectionnez la rubrique **Détails du client**.
 
-1. Sélectionnez **Variables** dans la barre supérieure pour ouvrir le volet Variables.
+1. Sélectionnez **Variables** dans la barre supérieure pour ouvrir le volet Variables (vous devrez peut-être sélectionner **Plus** \> **Variables**).
 
 1. Cochez les cases à droite pour les trois variables de rubrique.
 
@@ -123,6 +123,12 @@ Le flux de conversation d’un sujet peut être créé manuellement en ajoutant 
 
 1. Sélectionnez la variable dans **Enregistrer la réponse de l’utilisateur comme** et entrez **`DateTime`** comme **nom de la variable**.
 
+1. Sélectionnez l’icône **+** sous le nœud gauche **Question** et sélectionnez **Envoyer un message**.
+
+1. Dans le champ **Entrer un message**, entrez le texte suivant :
+
+    `Great! Let me get that scheduled for you.`
+
 1. Cliquez sur **Enregistrer**.
 
 ### Tâche 2.5 : tester l’assistant
@@ -135,7 +141,7 @@ Le flux de conversation d’un sujet peut être créé manuellement en ajoutant 
 
     ![Capture d’écran illustrant les options du panneau de test.](../media/test-pane-options.png)
 
-1. Sélectionnez l’icône **Commencer une nouvelle conversation** (actualiser) en haut du panneau de test.
+1. Sélectionnez l’icône **Démarrer une nouvelle session de test** en haut du panneau de test.
 
 1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 

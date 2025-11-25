@@ -43,7 +43,9 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 ### Tâche 1.2 : créer un assistant
 
-1. Sélectionnez **Créer** dans le volet de navigation de gauche, puis sélectionnez **+ Nouvel agent** et **Passer à la configuration** en haut à droite.
+1. Sélectionnez **Créer** dans le volet de navigation gauche, puis sélectionnez **+ Nouvel assistant**.
+
+1. Sélectionnez l'onglet **Configurer** .
 
 1. Dans la zone de texte **Nom**, entrez **`Real Estate Booking Service`**.
 
@@ -51,13 +53,7 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
 1. Dans la zone de texte **Instructions**, entrez **`Create an agent for topics relating to creating bookings for real estate properties`**.
 
-1. En haut, la **langue** doit être définie sur **English (en-US)**.
-
-    ![Langue de l’assistant Copilot.](../media/copilot-agent-language.png)
-
-1. En haut à droite de la page, sélectionnez les **trois points**, puis **Modifier les paramètres avancés**.
-
-    ![Plus d’options dans le portail Copilot Studio.](../media/copilot-studio-more-options-2.png)
+1. Sélectionnez les points de suspension (**...**) et sélectionnez **Mettre à jour les paramètres avancés**.
 
 1. Sélectionnez **Bookings** sous **Solution**.
 
@@ -65,9 +61,9 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio, à l
 
     ![Paramètres avancés dans le portail Copilot Studio.](../media/copilot-studio-advanced-settings.png)
 
-1. Cliquez sur **Enregistrer**.
+1. Sélectionnez **Mettre à jour**.
 
-1. Sélectionnez **Créer** en haut à droite de l’écran.
+1. Sélectionnez **Créer** en haut à droite de l’écran. Attendez que la configuration de votre assistant soit terminée.
 
 1. Dans le volet **Test de droite de votre agent**, entrez **`How do I make a booking?`** et affichez la réponse.
 
@@ -99,7 +95,7 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et aj
 
 1. Sélectionnez **Ajouter**.
 
-1. Sélectionnez **Ajouter**.
+1. Sélectionnez **Ajouter à l’agent**.
 
 1. Sélectionnez l’onglet **Vue d’ensemble**.
 
@@ -109,7 +105,7 @@ Dans cet exercice, vous allez accéder au portail Microsoft Copilot Studio et aj
 
     ![Capture d’écran illustrant les options du panneau de test.](../media/test-pane-options.png)
 
-1. En haut du volet **Tester votre agent**, sélectionnez l’icône **Commencer une nouvelle conversation** (icône d’actualisation).
+1. En haut du volet **Tester votre assistant**, sélectionnez l’icône  **Démarrer une nouvelle session de test**.
 
     ![Capture d’écran des options du panneau de test.](../media/copilot-test-pane-start-new-conversation.png)
 

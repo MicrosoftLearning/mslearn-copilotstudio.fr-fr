@@ -41,7 +41,11 @@ Cet exercice devrait prendre environ **30** minutes.
 
 1. Cliquez sur le bouton **Paramètres** en haut à droite de l’écran.
 
-1. Dans la section **Détails**, activez l’option **Orchestration**.
+1. Dans la section **Détails**, activez l’orchestration en la définissant sur **Oui**.
+
+1. Cliquez sur **Enregistrer**.
+
+1. Fermez la fenêtre Paramètres.
 
 ### Tâche 1.2 – Utiliser des réponses génératives dans la rubrique Boosting conversationnel
 
@@ -55,7 +59,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 ### Tâche 1.3 – Configurer l’authentification
 
-1. Sélectionnez les points de suspension (**...**) > **Paramètres** en haut à droite de l’écran.
+1. Sélectionnez **Paramètres** en haut à droite de l’écran.
 
 1. Sélectionnez l’onglet **Sécurité**.
 
@@ -67,7 +71,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 1. Cliquez sur **Enregistrer**.
 
-1. Fermez le menu **Paramètres** en sélectionnant le **X** en haut à droite de Copilot Studio.
+1. Fermez la fenêtre Paramètres.
 
 1. Sélectionnez **Publier**, puis **Publier** à nouveau.
 
@@ -85,13 +89,11 @@ Cet exercice devrait prendre environ **30** minutes.
 
     ![Capture d’écran de l’ajout de connaissances à partir de sites web.](../media/add-dataverse-knowedge-step1.png)
 
-1. Sélectionnez **Ajouter**.
+1. Sélectionnez **Ajouter à l’agent**.
 
 ### Tâche 2.2 - Ajouter des connaissances à partir de fichiers
 
-1. Téléchargez cette [**étude de cas Microsoft**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) ou [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) à partir de GitHub.
-
-> ℹ️**NOTE :** le lien vers l’étude de cas Microsoft se trouve ici : `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
+1. Ouvrez une nouvelle fenêtre et accédez à `https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx` pour télécharger le fichier [**Étude de cas Microsoft**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx).
 
 1. Sélectionnez **+ Ajouter des connaissances**.
 
@@ -99,7 +101,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
     ![Capture d’écran de l’ajout de connaissances à partir de fichiers.](../media/add-file-knowledge.png)
 
-1. Sélectionnez **Ajouter**.
+1. Sélectionnez **Ajouter à l’agent**.
 
     ![Capture d’écran des connaissances.](../media/knowledge-added.png)
 
@@ -117,7 +119,7 @@ Cet exercice devrait prendre environ **30** minutes.
 
 1. Sélectionnez l’icône **+** sous le nœud **Condition**, puis **Avancé**, et enfin **Réponses génératives**.
 
-1. Sélectionnez l’onglet **Système** et sélectionnez **Activity.Text** pour le **champ Entrée**.
+1. Dans le champ **Entrée**, sélectionnez l’onglet **Système**, puis **Activity.Text**.
 
 1. Sélectionnez **Modifier** sous **Sources de données**.
 
@@ -138,12 +140,6 @@ Cet exercice devrait prendre environ **30** minutes.
 ### Tâche 4.1 : tester les connaissances de l’assistant
 
 1. Le cas échéant, sélectionnez le bouton **Tester** en haut à droite de l’écran pour ouvrir le panneau de test.
-
-1. Sélectionnez l’icône **Carte de conversation** en haut du volet de test, en haut à droite de l’écran.
-
-    ![Capture d’écran de la carte de conversation dans le volet Test.](../media/test-pane-conversation-map.png)
-
-1. Sélectionnez **Activé**.
 
 1. Sélectionnez l’icône **Commencer une nouvelle conversation** en haut du panneau de test.
 

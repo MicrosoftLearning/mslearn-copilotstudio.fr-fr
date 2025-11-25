@@ -44,7 +44,7 @@ Dans cet exercice, vous allez supprimer les rubriques d’un assistant.
 
     ![Assistants dans le portail Copilot Studio.](../media/copilot-studio-copilots.png)
 
-1. Sélectionnez l’assistant que vous avez créé dans le labo précédent.
+1. Sélectionnez l’assistant du service de réservation immobilière que vous avez créé dans le labo précédent.
 
 1. Sélectionnez l’onglet **Rubriques**.
 
@@ -151,7 +151,7 @@ En plus de mettre à jour de nouveaux nœuds, vous pouvez utiliser Copilot pour 
     }
     ```
 
-1. Sélectionnez l’icône **Copilot** pour rouvrir le volet **Modifier Copilot**.
+1. Sélectionnez l’icône **Copilot** (vous devrez peut-être sélectionner **Plus** \> **Copilot** ) pour rouvrir le volet **Modifier avec Copilot**.
 
 1. Assurez-vous qu’aucun nœud n’est sélectionné en sélectionnant l’espace vide dans le canevas de création.
 
@@ -161,9 +161,9 @@ En plus de mettre à jour de nouveaux nœuds, vous pouvez utiliser Copilot pour 
 
 1. Sélectionnez **Mettre à jour**.
 
-Un nouveau nœud Question est ajouté à la fin de la rubrique avec des options que l’utilisateur peut sélectionner.
+1. Un nouveau nœud Question est ajouté à la fin de la rubrique avec des options que l’utilisateur peut sélectionner.
 
-    ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
+    ![Capture d’écran du nouveau nœud Question avec les options oui et non.](../media/new-question-node.png)
 
 1. Cliquez sur **Enregistrer**.
 
@@ -171,13 +171,17 @@ Un nouveau nœud Question est ajouté à la fin de la rubrique avec des options 
 
 1. Si le panneau **Tester votre agent** est fermé, sélectionnez le bouton **Tester** en haut à droite de l’écran.
 
-1. Sélectionnez l’icône **Commencer une nouvelle conversation** (actualiser) en haut du panneau de test.
+1. Sélectionnez l’icône **Démarrer une nouvelle session de test** en haut du panneau de test.
+
+    ![Capture d’écran des options du panneau de test.](../media/copilot-test-pane-start-new-conversation.png)
 
 1. Dans la zone de texte **Poser une question ou décrire ce dont vous avez besoin**, entrez **`Customer information`**.
 
 1. Entrez votre nom et votre adresse e-mail.
 
 1. Sélectionnez **Oui**.
+
+1. Cliquez sur **Enregistrer**
 
 ## Exercice 3 – Créer des rubriques manuellement
 
@@ -189,7 +193,7 @@ Les rubriques peuvent être créées manuellement avec des expressions déclench
 
 1. Sélectionnez **+ Ajouter une rubrique**, puis **Créer à partir de zéro**.
 
-1. Sélectionnez l’icône **Détails** pour ouvrir la boîte de dialogue des détails de la rubrique.
+1. Sélectionnez l’icône **Détails** pour ouvrir la boîte de dialogue Détails du sujet (vous devrez peut-être sélectionner **Plus** \> **Détails**).
 
     ![Capture d’écran de la boîte de dialogue Détails de la rubrique. ](../media/topic-details.png)
 
@@ -205,7 +209,7 @@ Les rubriques peuvent être créées manuellement avec des expressions déclench
 
     `Select the property and requested date and create a booking request`
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**. Sélectionnez **Publier** \> **Publier**. 
 
 ### Tâche 3.2 – Ajouter des expressions déclencheuses
 

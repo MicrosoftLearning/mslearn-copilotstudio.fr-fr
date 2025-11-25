@@ -124,19 +124,19 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Sélectionnez **Enregistrer le brouillon** en haut à droite de la page.
 
-1. Attendez la fin de l’enregistrement, puis sélectionnez **Publier**. Dans le **Flux de votre agent publié avec succès !** fenêtre contextuelle, sélectionnez **Retourner à l’agent**.
+1. Attendez la fin de l’enregistrement, puis sélectionnez **Publier**.
 
-1. Sélectionnez l’onglet **Vue d’ensemble**.
+1. Dans le **Flux de votre agent publié avec succès !** fenêtre contextuelle, sélectionnez **Retourner à l’agent**.
 
-1. Sélectionnez **Modifier** dans la section **Détails**. 
+1. Sélectionnez l’outil de flux d’assistant que vous venez de créer. 
 
-1. Mettez à jour le **Nom du flux** vers `Get Property`
+1. Dans la section **Détails**, mettez à jour le **Nom** du flux en `Get Property`
+
+1. Mettez à jour la **Description** en `Get properties with the right number of bedrooms.`
 
 1. Cliquez sur **Enregistrer**
 
-1. Sélectionnez **Agents**, puis votre agent **Service de réservation immobilière**. 
-
-1. Sélectionnez **Outils** et consultez le flux Obtenir une propriété que vous avez créé.
+1. Sélectionnez l’onglet **Outils** et consultez le flux Obtenir la propriété que vous avez créé.
 
 
 ### Tâche 1.2 : ajouter l’outil Obtenir la propriété au sujet
@@ -145,15 +145,11 @@ Microsoft Copilot Studio peut accéder aux données dans Microsoft Dataverse 
 
 1. Sélectionnez la rubrique **Réserver une visite immobilière**.
 
-1. Sélectionnez l’icône **+** sous le nœud **Combien de chambres avez-vous besoin ?**, sélectionnez **Ajouter un outil**, puis sélectionnez le flux **Obtenir la propriété**.
+1. Sélectionnez l’icône **+** sous le nœud **Combien de chambres avez-vous besoin ?**, sélectionnez **Ajouter un outil**, puis sélectionnez le flux **Obtenir la propriété** sous Outils.
 
-1. Sélectionnez la **variable NumberofBedrooms** pour le paramètre d’entrée **Chambres**.
+1. Sélectionnez les **points de suspension (...)** dans le nœud de question **Quelle propriété souhaitez-vous voir ?** et sélectionnez **Supprimer**.
 
-    ![Capture d’écran de l’étape 3 de l’ajout d’une action de flux.](../media/add-action-flow-step-3.png)
-
-1. Sélectionnez les **trois points** dans le nœud **Quelle propriété voulez-vous voir ?**, puis sélectionnez **Supprimer**.
-
-1. Sélectionnez l’icône **+** sous le nœud **Action**, puis sélectionnez **Envoyer un message**.
+1. Sélectionnez l’icône **+** sous le nœud **Outil** et sélectionnez **Envoyer un message**.
 
 1. Dans le champ **Entrer un message**, entrez `Property ` (avec un espace après).
 
@@ -173,7 +169,7 @@ Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez **+ Ajouter un outil**.
 
-1. Select **+ Nouvel outil**, puis **Flux d’agent** .
+1. Sélectionnez **+ Nouvel outil**, puis **Flux de l’assistant**.
 
 1. Sélectionnez **Enregistrer le brouillon** et attendez que le flux de l’agent soit enregistré.
 
@@ -237,14 +233,6 @@ Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l�
 
 1. Attendez la fin de l’enregistrement, puis sélectionnez **Publier**.
 
-1. Sélectionnez l’onglet **Vue d’ensemble**.
-
-1. Dans la section Détails, sélectionnez **Modifier**.
-
-1. Renommer le flux d’agent `Create Booking Request`
-
-1. Cliquez sur **Enregistrer**.
-
 ### Tâche 2.2 – Valider vos outils
 
 1. Sélectionnez **Agents** et ouvrez votre agent **Service de réservation immobilière**.
@@ -257,7 +245,7 @@ Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l�
 
 1. Sélectionnez la rubrique **Réserver une visite immobilière**.
 
-1. Sélectionnez l’icône **+** sous le nœud **À quelle date et à quelle heure souhaitez-vous visiter le bien ?**, sélectionnez **Ajouter un outil**, puis sélectionnez le flux **Créer une demande de réservation**.
+1. Sélectionnez l’icône **+** sous le nœud **Message** en bas, sélectionnez **Ajouter un outil**, puis sélectionnez le flux **Créer une demande de réservation**.
 
 1. Sélectionnez la variable **PropertyId** pour le paramètre d’entrée **PropertyId**.
 
@@ -283,20 +271,13 @@ Microsoft Copilot Studio peut céder des données dans Microsoft Dataverse à l�
 
 1. Le cas échéant, activez **Suivi des rubriques**.
 
-1. Sélectionnez l’icône **Commencer une nouvelle conversation** (actualiser) en haut du panneau de test.
+1. Sélectionnez l’icône **Démarrer une nouvelle session de test** en haut du panneau de test.
 
 1. Lorsque le message **Début de conversation** s’affiche, votre assistant lance une conversation. En réponse, saisissez une phrase déclencheur pour la rubrique que vous avez créée :
 
     `I want to book a real estate showing`
 
-1. Saisissez les informations suivantes :
-
-    ```
-    Name: <Your name>
-    ```
-    ```
-    Email address: <Your email address>
-    ```
+1. Entrez un nom et une adresse e-mail.
 
 1. Une fois les informations fournies, une carte adaptative affiche les informations que vous avez entrées et vous demande si les détails sont corrects. Sélectionnez **Oui**.
 

@@ -54,10 +54,6 @@ Maintenant que votre agent est publié, vous pouvez le mettre à la disposition 
 
 1. Sélectionnez **Ajouter un canal**.
 
-1. Cliquez sur **Options de disponibilité**.
-
-    ![Capture d’écran des options de disponibilité du canal Teams.](../media/teams-availability-options.png)
-
 1. Sélectionnez **Afficher l’agent dans Teams**
 
 1. Sélectionnez **Annuler** dans la boîte de dialogue de **Ce site essaye d’ouvrir Microsoft Teams**.
@@ -68,7 +64,7 @@ Maintenant que votre agent est publié, vous pouvez le mettre à la disposition 
 
     ![Capture d’écran de la boîte de dialogue d’ajout de l’application à Teams.](../media/teams-add-app.png)
 
-1. Sélectionnez **Ouvrir**.
+1. Sélectionnez **Ouvrir** et attendez que l’assistant se charge dans Teams.
 
 1. Testez l’assistant.
 
