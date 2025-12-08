@@ -43,7 +43,7 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Sélectionnez **Paramètres** en haut à droite de l’écran.
 
-1. Sélectionnez l’onglet **Entités**.
+1. Sélectionnez l’onglet **Entités**. Vous devriez voir une liste des entités prédéfinies pour votre assistant.
 
     ![Capture d’écran de l’onglet Entités.](../media/system-entities.png)
 
@@ -77,7 +77,7 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Cliquez sur **Enregistrer**.
 
-1. Cliquez sur **Fermer**.
+1. Fermez la fenêtre Type de propriété.
 
 ### Tâche 1.3 - Créer un nombre d’entités de chambres
 
@@ -91,7 +91,7 @@ Microsoft Copilot Studio utilise des entités pour comprendre l’intention de l
 
 1. Cliquez sur **Enregistrer**.
 
-1. Cliquez sur **Fermer**.
+1. Fermez le volet Nombre de chambres.
 
 1. Sélectionnez l’icône **X** en haut à droite pour fermer les paramètres et revenir à votre assistant.
 

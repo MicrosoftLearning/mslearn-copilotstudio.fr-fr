@@ -148,7 +148,7 @@ Vous pouvez utiliser des *rubriques* pour fournir des réponses explicites aux *
 
 Vous pouvez ajouter des rubriques pour toutes les entrées que les utilisateurs et utilisatrices saisiront probablement ; mais vous ne pouvez pas anticiper toutes les questions qui seront posées. Actuellement, votre agent utilise un *Boosting conversationnel* pour générer des réponses d’IA à partir d’un modèle de langage, mais cela entraîne des réponses générales. Vous devez fournir une source de connaissances sur laquelle les réponses d’IA génératives peuvent *s’appuyer* pour fournir des informations plus pertinentes.
 
-1. Ouvrez un nouvel onglet de navigateur, téléchargez le fichier du [document de politique de dépenses](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-copilotstudio/main/expenses/Expenses_Policy.docx) à partir de `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx`, et enregistrez-le localement. Ce document contient les détails de la politique des dépenses pour la société Contoso fictive.
+1. Ouvrez un nouvel onglet de navigateur et accédez à `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` pour télécharger le [document de politique de dépenses](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-copilotstudio/main/expenses/Expenses_Policy.docx) localement. Ce document contient les détails de la politique des dépenses pour la société Contoso fictive.
 
 1. Revenez à l’onglet navigateur de Copilot Studio et fermez le volet **Tester votre agent** pour mieux visualiser la page, puis sélectionnez l’onglet **Connaissances** pour afficher les sources de connaissances définies dans votre agent (il ne devrait y en avoir aucune pour le moment).
 
@@ -160,7 +160,7 @@ Vous pouvez ajouter des rubriques pour toutes les entrées que les utilisateurs 
 
 1. Dans la section **Charger un fichier**, chargez le document de politique de dépenses que vous avez téléchargé précédemment et ajoutez-le aux connaissances de votre agent.
 
-    > **Note** : après le chargement du fichier, vous devez attendre 10 minutes (ou plus) que son indexation soit effectuée. C’est le moment idéal pour faire une pause café pendant que vous examinez le [document de politique des dépenses](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) sur `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx` dans autre onglet de navigateur !
+    > **Note** : après le chargement du fichier, vous devez attendre 10 minutes (ou plus) que son indexation soit effectuée. C’est le moment idéal pour faire une pause café pendant que vous examinez le [document de politique des dépenses](https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/expenses/Expenses_Policy.docx) dans autre onglet de navigateur ! Si l’indexation n’est toujours pas terminée, vous pouvez passer au labo suivant et revenir terminer le reste de ce labo une fois qu’il sera terminé. 
 
 1. Lorsque le fichier est prêt, affichez la page **Rubriques** et ouvrez la rubrique système **Boosting conversationnel**. Rappelez-vous que cette rubrique est déclenchée par une intention inconnue, puis tente de créer une réponse d’IA générative basée sur des sources de données contenant des connaissances telles que le fichier que vous avez chargé.
 
@@ -184,7 +184,7 @@ Vous pouvez ajouter des rubriques pour toutes les entrées que les utilisateurs 
 
 Maintenant que vous disposez d’un agent opérationnel, vous pouvez le publier pour que les utilisateurs et les utilisatrices puissent s’en servir. Les canaux disponibles par le biais desquels vous pouvez fournir votre agent dépendent du type d’authentification que vous souhaitez utiliser pour y restreindre l’accès. Dans ce cas, vous allez activer l’accès pour tout le monde, puis publier l’agent et l’utiliser dans une page web de démonstration.
 
-1. Masquez le volet **Tester votre agent**. Ensuite, en haut de la page, sélectionnez l’onglet **Canaux** et passez en revue les canaux sur lesquels vous pouvez déployer votre agent. Les canaux disponibles dépendent des paramètres d’authentification de votre agent.
+1. En haut de la page, sélectionnez l’onglet **Canaux** et examinez les canaux sur lesquels vous pouvez déployer votre assistant. Les canaux disponibles dépendent des paramètres d’authentification de votre agent.
 1. Sélectionnez **Paramètres** en haut de la page.
 1. Dans le volet **Paramètres**, sur la page **Sécurité**, sélectionnez **Authentification**. Sélectionnez ensuite l’option **Pas d’authentification** et **Enregistrez** les modifications de la configuration, puis **Enregistrez** une nouvelle fois (en confirmant que vous souhaitez activer l’accès à l’agent pour tout le monde).
 1. Fermez le volet **Paramètres**. Ensuite, affichez la page **Canaux**.
@@ -204,13 +204,14 @@ Maintenant que vous disposez d’un agent opérationnel, vous pouvez le publier 
         "What are the expense limits for flights?"`
         ```
 
-1. Sélectionnez **Enregistrer** pour enregistrer les paramètres. Ensuite, **copiez** le lien vers votre site web de démonstration de l’agent dans le Presse-papiers.
+1. Sélectionnez **Enregistrer** pour enregistrer les paramètres.
+2. Sélectionnez **Copier** pour copier le lien vers le site web de démonstration de votre assistant dans le presse-papiers.
 1. Dans un nouvel onglet du navigateur, accédez à l’URL que vous avez copiée pour ouvrir le site web de démonstration, qui doit ressembler à ce qui suit :
 
     ![Capture d’écran du site web de démonstration d’un agent.](media/demo-website.png)
 
 1. Entrez le message `What are the expense limits for meals?` et lisez la réponse.
-1. Essayez quelques questions supplémentaires et lisez les réponses de votre agent. Il aura des fonctionnalités limitées, mais devrait être en mesure de fournir des réponses pertinentes aux questions sur les notes de frais.
+1. Essayez quelques questions supplémentaires et lisez les réponses de votre agent. Il aura des fonctionnalités limitées, mais devrait être en mesure de fournir des réponses pertinentes aux questions sur les notes de frais. Une fois que vous avez terminé d’explorer cet assistant, vous pouvez fermer la fenêtre de votre navigateur.
 
 ## Défi
 

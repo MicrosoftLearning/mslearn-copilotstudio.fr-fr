@@ -18,9 +18,7 @@ Dans cet exercice, vous allez importer une solution Dataverse dans votre environ
 
 ### Tâche 1.1 – Télécharger la solution
 
-1. Dans un nouvel onglet, naviguez vers le fichier **Bookings_1_0_0_0.zip** sur GitHub à `https://github.com/MicrosoftLearning/mslearn-copilotstudio/blob/main/Allfiles/Bookings_1_0_0_0.zip`
-
-1. Sélectionnez les **points de suspension (...)** en haut à droite, puis **Télécharger**.
+1. Dans un nouvel onglet du navigateur, accédez à `https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/Allfiles/Bookings_1_0_0_0.zip` pour télécharger le fichier **Bookings_1_0_0_0.zip**.
 
 1. Fermez l’onglet du navigateur.
 
@@ -64,7 +62,7 @@ Dans cet exercice, vous allez importer une solution Dataverse dans votre environ
 
 1. Dans le volet de navigation gauche de la solution Bookings, sélectionnez l’onglet **Objets**.
 
-1. Sélectionnez le menu **points de suspension (...)** de l’application pilotée par modèle **Gestion des propriétés immobilières**, puis sélectionnez **Lire**.
+1. Sélectionnez le menu **points de suspension (...)** de l’application pilotée par modèle **Gestion des propriétés immobilières**, puis sélectionnez **Lire**. Il s’agit d’une application simple pilotée par modèle qui vous permettra de créer de nouveaux enregistrements de biens immobiliers. 
 
     ![Vue d’ensemble.](../media/play-app.png)
 
@@ -73,7 +71,7 @@ Dans cet exercice, vous allez importer une solution Dataverse dans votre environ
 1. Saisissez les informations suivantes :
 
     - **Nom de propriété :** `1100 High Villas`
-    - **Propriétaire :** sélectionnez votre utilisateur
+    - **Propriétaire :** Sélectionnez votre utilisateur (recherchez votre nom d’utilisateur fourni)
     - **Prix demandé :** `250,000`
     - **Rue :** `Main Avenue`
     - **Ville :** `Redmond`
